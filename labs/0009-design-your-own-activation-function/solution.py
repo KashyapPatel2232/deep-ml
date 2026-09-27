@@ -17,4 +17,4 @@ def activation(x):
     '''
 
     
-    return np.maximum(1e-3*x,x)
+    return np.maximum(1e-5*x,x)
