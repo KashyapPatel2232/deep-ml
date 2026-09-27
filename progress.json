@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T03:21:36.715Z",
+  "generated_at": "2026-09-27T03:44:11.412Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -48,6 +48,17 @@
       "last_pushed_at": "2026-09-27T03:21:36.141Z",
       "language": "python",
       "lines": 5
+    },
+    "math:32": {
+      "kind": "math",
+      "id": "32",
+      "title": "Softmax and Cross-Entropy",
+      "difficulty": "medium",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/32",
+      "path": "math/0032-softmax-and-cross-entropy",
+      "first_solved_at": "2026-09-27T03:44:10.466Z",
+      "last_pushed_at": "2026-09-27T03:44:10.466Z"
     }
   }
 }
