@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:40:40.703Z",
+  "generated_at": "2026-09-29T06:54:12.474Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -341,6 +341,17 @@
       "path": "math/0003-neural-network-derivatives",
       "first_solved_at": "2026-09-29T06:40:40.054Z",
       "last_pushed_at": "2026-09-29T06:40:40.054Z"
+    },
+    "math:4": {
+      "kind": "math",
+      "id": "4",
+      "title": "Backpropagation and the Chain Rule",
+      "difficulty": "medium",
+      "category": "Calculus for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/4",
+      "path": "math/0004-backpropagation-and-the-chain-rule",
+      "first_solved_at": "2026-09-29T06:54:11.555Z",
+      "last_pushed_at": "2026-09-29T06:54:11.555Z"
     }
   }
 }
