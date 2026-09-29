@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:54:12.474Z",
+  "generated_at": "2026-09-29T15:40:07.026Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -352,6 +352,19 @@
       "path": "math/0004-backpropagation-and-the-chain-rule",
       "first_solved_at": "2026-09-29T06:54:11.555Z",
       "last_pushed_at": "2026-09-29T06:54:11.555Z"
+    },
+    "problem:1367": {
+      "kind": "problem",
+      "id": "1367",
+      "title": "Poisson Deviance and Overdispersion",
+      "difficulty": "medium",
+      "category": "Statistics",
+      "url": "https://www.deep-ml.com/problems/1367",
+      "path": "problems/1367-poisson-deviance-and-overdispersion",
+      "first_solved_at": "2026-09-29T15:40:06.071Z",
+      "last_pushed_at": "2026-09-29T15:40:06.071Z",
+      "language": "python",
+      "lines": 21
     }
   }
 }
