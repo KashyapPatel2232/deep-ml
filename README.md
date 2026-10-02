@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**35** solved · 27 problems · 1 labs · 7 math
+**36** solved · 28 problems · 1 labs · 7 math
 
 ![Coverage](./coverage.svg)
 
@@ -33,6 +33,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-09-29 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Binary Cross-Entropy from Logits](https://www.deep-ml.com/problems/1229) | medium | 2026-09-29 | [solution](problems/1229-binary-cross-entropy-from-logits) |
 | [Derivative of Softmax](https://www.deep-ml.com/problems/219) | medium | 2026-09-27 | [solution](problems/0219-derivative-of-softmax) |
+| [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-02 | [solution](problems/0026-implementing-basic-autograd-operations) |
 | [Numerically Stable Softmax](https://www.deep-ml.com/problems/1227) | medium | 2026-09-29 | [solution](problems/1227-numerically-stable-softmax) |
 | [Poisson Deviance and Overdispersion](https://www.deep-ml.com/problems/1367) | medium | 2026-09-29 | [solution](problems/1367-poisson-deviance-and-overdispersion) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-01 | [solution](problems/1235-sgd-with-momentum-step) |
