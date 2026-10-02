@@ -24,6 +24,8 @@ def loss_function(preds: np.ndarray, target: np.ndarray, reduction: str = "mean"
 
     if reduction == "mean":
         loss = -1* np.mean((np.log(softmax))*tgt)
+        grad = grad/preds.shape[0]
+        grad = 180 * grad
     elif reduction == "sum":
         loss = -1* np.sum((np.log(softmax))*tgt, axis = 1)
     else:
