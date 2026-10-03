@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:06:07.957Z",
+  "generated_at": "2026-10-03T05:07:13.091Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -529,9 +529,9 @@
       "url": "https://www.deep-ml.com/problems/146",
       "path": "problems/0146-momentum-optimizer",
       "first_solved_at": "2026-10-03T05:06:07.385Z",
-      "last_pushed_at": "2026-10-03T05:06:07.385Z",
+      "last_pushed_at": "2026-10-03T05:07:12.258Z",
       "language": "python",
-      "lines": 20
+      "lines": 19
     }
   }
 }
