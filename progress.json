@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:27:36.046Z",
+  "generated_at": "2026-10-03T18:28:30.071Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -642,7 +642,7 @@
       "url": "https://www.deep-ml.com/problems/169",
       "path": "problems/0169-implement-adamw-optimizer-step",
       "first_solved_at": "2026-10-03T18:27:35.404Z",
-      "last_pushed_at": "2026-10-03T18:27:35.404Z",
+      "last_pushed_at": "2026-10-03T18:28:29.473Z",
       "language": "python",
       "lines": 27
     }

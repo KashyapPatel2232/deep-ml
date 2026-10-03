@@ -1,13 +1,13 @@
-import torch
+import numpy as np
 
-def adamw_update(w: torch.Tensor, g: torch.Tensor, m: torch.Tensor, v: torch.Tensor, t: int, lr: float, beta1: float, beta2: float, epsilon: float, weight_decay: float) -> tuple:
+def adamw_update(w, g, m, v, t, lr, beta1, beta2, epsilon, weight_decay):
     """
     Perform one AdamW optimizer step.
     Args:
-      w: parameter tensor (torch.Tensor)
-      g: gradient tensor (torch.Tensor)
-      m: first moment tensor (torch.Tensor)
-      v: second moment tensor (torch.Tensor)
+      w: parameter vector (np.ndarray)
+      g: gradient vector (np.ndarray)
+      m: first moment vector (np.ndarray)
+      v: second moment vector (np.ndarray)
       t: integer, current time step
       lr: float, learning rate
       beta1: float, beta1 parameter
@@ -23,5 +23,5 @@ def adamw_update(w: torch.Tensor, g: torch.Tensor, m: torch.Tensor, v: torch.Ten
     m_cap = m /(1-beta1**t)
     v_cap = v / (1-beta2**t)
     w -= lr*weight_decay*w
-    w -= lr*m_cap/(torch.sqrt(v_cap) + epsilon)
+    w -= lr*m_cap/(np.sqrt(v_cap) + epsilon)
     return w, m, v
