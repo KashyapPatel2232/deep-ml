@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**47** solved · 36 problems · 2 labs · 9 math
+**48** solved · 37 problems · 2 labs · 9 math
 
 ![Coverage](./coverage.svg)
 
@@ -12,6 +12,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
+| [Adagrad Optimizer](https://www.deep-ml.com/problems/145) | easy | 2026-10-03 | [solution](problems/0145-adagrad-optimizer) |
 | [Add a Bias Vector to a Batch via Broadcasting](https://www.deep-ml.com/problems/882) | easy | 2026-09-29 | [solution](problems/0882-add-a-bias-vector-to-a-batch-via-broadcasting) |
 | [Backprop a Linear Layer by Hand](https://www.deep-ml.com/problems/898) | easy | 2026-10-02 | [solution](problems/0898-backprop-a-linear-layer-by-hand) |
 | [Compute a Gradient with PyTorch Autograd](https://www.deep-ml.com/problems/884) | easy | 2026-09-29 | [solution](problems/0884-compute-a-gradient-with-pytorch-autograd) |
