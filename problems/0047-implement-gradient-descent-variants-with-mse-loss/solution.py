@@ -1,8 +1,11 @@
-import numpy as np
+import torch
 
-def gradient_descent(X, y, weights, learning_rate, n_epochs, batch_size=1, method='batch'):
+def gradient_descent(X: torch.Tensor, y: torch.Tensor, weights: torch.Tensor, 
+                    learning_rate: float, n_epochs: int, 
+                    batch_size: int = 1, method: str = 'batch') -> torch.Tensor:
     """
-    Perform gradient descent optimization.
+    Implements three variants of gradient descent: Batch, Stochastic, and Mini-Batch.
+    Uses Mean Squared Error (MSE) as the loss function.
     
     Args:
         X: Feature matrix of shape (m, n)
@@ -14,37 +17,40 @@ def gradient_descent(X, y, weights, learning_rate, n_epochs, batch_size=1, metho
         method: Type of gradient descent ('batch', 'stochastic', or 'mini_batch')
     
     Returns:
-        Optimized weights
+        Optimized weights as a tensor
     """
+    # Your implementation here
     m = len(y)
-    # Your code here
+
     for i in range(n_epochs):
 
         if method == 'batch':
-            pred = X @ weights
-            error = pred - y
+            preds = X @ weights
+            error = preds - y
 
-            gradient = (2/m)* X.T @ error
-            weights = weights - learning_rate * gradient
+            gradient = X.T @ error
+            weights = weights - (2/m)*learning_rate*gradient
 
         elif method == 'mini_batch':
             for start in range(0, m, batch_size):
                 end = start + batch_size
-                X_batch = X[start: end]
+
+                X_batch = X[start:end]
                 y_batch = y[start:end]
 
-                pred = X_batch @ weights
-                error = pred - y_batch
+                preds = X_batch @ weights
+                error = preds - y_batch
 
-                gradient = (2/len(y_batch)) * X_batch.T @ error
-                weights = weights - learning_rate*gradient
+                gradient = X_batch.T @ error
+                weights = weights - (2/batch_size) * learning_rate * gradient
 
         else:
-            for i in range(m):
-                pred = X[i] @ weights
-                error = pred - y[i]
-    
-                gradient = 2* error * X[i]
-                weights = weights - learning_rate * gradient
+            for k in range(m):
+                preds = X[k] @ weights
+                error = preds - y[k]
+
+                gradient = 2 * X[k] * error
+                weights = weights - learning_rate*gradient
 
     return weights
+
