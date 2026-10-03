@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:23:11.341Z",
+  "generated_at": "2026-10-03T03:27:18.837Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -503,7 +503,7 @@
       "url": "https://www.deep-ml.com/labs/4",
       "path": "labs/0004-mnist-classification-loss-with-gradient",
       "first_solved_at": "2026-10-02T16:17:54.031Z",
-      "last_pushed_at": "2026-10-02T16:27:45.800Z",
+      "last_pushed_at": "2026-10-03T03:27:18.248Z",
       "language": "python",
       "lines": 33
     },
