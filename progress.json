@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:57:24.396Z",
+  "generated_at": "2026-10-03T13:57:37.466Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -603,9 +603,9 @@
       "url": "https://www.deep-ml.com/problems/145",
       "path": "problems/0145-adagrad-optimizer",
       "first_solved_at": "2026-10-03T13:57:23.767Z",
-      "last_pushed_at": "2026-10-03T13:57:23.767Z",
+      "last_pushed_at": "2026-10-03T13:57:36.870Z",
       "language": "python",
-      "lines": 19
+      "lines": 24
     }
   }
 }
