@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:18:25.355Z",
+  "generated_at": "2026-10-04T05:29:12.872Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -681,9 +681,9 @@
       "url": "https://www.deep-ml.com/labs/8",
       "path": "labs/0008-design-your-own-optimizer-numpy",
       "first_solved_at": "2026-10-04T05:18:24.788Z",
-      "last_pushed_at": "2026-10-04T05:18:24.788Z",
+      "last_pushed_at": "2026-10-04T05:29:12.147Z",
       "language": "python",
-      "lines": 46
+      "lines": 45
     }
   }
 }

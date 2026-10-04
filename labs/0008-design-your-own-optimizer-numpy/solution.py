@@ -1,46 +1,45 @@
 import numpy as np
 
 def optimizer_step(param, grad, state, lr):
-    '''
-    Update a parameter using its gradient.
+    # 1. Retrieve state variables
+    t = state.get('step', 0) + 1
+    m = state.get('m', np.zeros_like(grad))
+    v = state.get('v', np.zeros_like(grad))
     
-    Args:
-        param: numpy array - current parameter values (any shape)
-        grad: numpy array - gradient of loss w.r.t. param (same shape)
-        state: dict - persists between calls, use to store any needed values
-                      Example: state = {'step': 5, 'momentum': np.array([...])}
-                      First call: state = {} (empty dict)
-        lr: float - learning rate
-    
-    Returns:
-        new_param: numpy array - updated parameter (must be same shape as param)
-        state: dict - updated state dictionary
-    '''
-    # TODO: Implement your optimizer update rule
-    # Hint: Think about gradient descent and how to use the gradient to update the parameter
-    m = np.zeros_like(grad)
-    v = np.zeros_like(grad)
-    t = 7
     beta1 = 0.9
     beta2 = 0.999
-    weight_decay = 0.1
     epsilon = 1e-8
-
-    m = beta1 * m + (1-beta1) * grad
-    v = beta2 * v + (1-beta2)* (grad**2)
-
-    m_cap = m /(1-beta1**t)
-    v_cap = v/(1-beta2**2)
-
+    
+    # 2. Internal Cosine Annealing Schedule
+    # 4000 samples / 64 batch size * 5 epochs = ~315 steps
+    total_steps = 315
+    progress = min(t / total_steps, 1.0)
+    
+    # Smoothly decays from 1.0 down to 0.01 over the 5 epochs
+    decay_factor = 0.01 + 0.5 * (1.0 - 0.01) * (1 + np.cos(np.pi * progress))
+    
+    # Scale down the aggressive 0.01 base LR and apply the decay
+    effective_lr = (lr * 0.2) * decay_factor
+    
+    # 3. Update biased moment estimates
+    m = beta1 * m + (1 - beta1) * grad
+    v = beta2 * v + (1 - beta2) * (grad**2)
+    
+    # 4. Bias correction
+    m_cap = m / (1 - beta1**t)
+    v_cap = v / (1 - beta2**t)
+    
+    # 5. Nesterov Acceleration (The Nadam magic)
+    # Re-injects the current gradient into the momentum to 'look ahead'
+    m_nesterov = beta1 * m_cap + ((1 - beta1) * grad) / (1 - beta1**t)
+    
+    # 6. Apply update
     w = param.copy()
-
-    w -= lr * weight_decay * grad
-    w -= lr * m_cap /(np.sqrt(v_cap) + epsilon)
-
-    state['step'] = t + 1
-    state['momentum'] = m
-    state['second moment'] = v
+    w -= effective_lr * m_nesterov / (np.sqrt(v_cap) + epsilon)
     
-    new_param = w  # Replace with your update rule
+    # 7. Save state
+    state['step'] = t
+    state['m'] = m
+    state['v'] = v
     
-    return new_param, state
+    return w, state
