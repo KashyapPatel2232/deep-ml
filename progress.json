@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:55:43.771Z",
+  "generated_at": "2026-10-04T05:18:25.355Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -671,6 +671,19 @@
       "last_pushed_at": "2026-10-04T04:55:43.035Z",
       "language": "python",
       "lines": 16
+    },
+    "lab:8": {
+      "kind": "lab",
+      "id": "8",
+      "title": "Design Your Own Optimizer (NumPy)",
+      "difficulty": "medium",
+      "category": "Optimizers",
+      "url": "https://www.deep-ml.com/labs/8",
+      "path": "labs/0008-design-your-own-optimizer-numpy",
+      "first_solved_at": "2026-10-04T05:18:24.788Z",
+      "last_pushed_at": "2026-10-04T05:18:24.788Z",
+      "language": "python",
+      "lines": 46
     }
   }
 }
