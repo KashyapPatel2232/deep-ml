@@ -1,4 +1,4 @@
-import numpy as np
+import torch
 
 class DropoutLayer:
     def __init__(self, p: float):
@@ -12,24 +12,25 @@ class DropoutLayer:
         self.p = p
         self.mask = None
 
-    def forward(self, x: np.ndarray, training: bool = True) -> np.ndarray:
+    def forward(self, x: torch.Tensor, training: bool = True) -> torch.Tensor:
         """Forward pass of the dropout layer.
         
         Generate a new mask on each training forward pass and store it in self.mask.
         """
         # Your code here
         if not training:
-           return x
-
-        keep_prob = 1 - self.p
-        self.mask = np.random.binomial(1, p = keep_prob, size = x.shape)
-        out = (x * self.mask) / keep_prob
+            return x
+        
+        keep_prob = 1- self.p
+        self.mask = torch.rand(x.shape, device = x.device) < keep_prob
+        out = x * self.mask / keep_prob
         return out
 
-    def backward(self, grad: np.ndarray) -> np.ndarray:
+    def backward(self, grad: torch.Tensor) -> torch.Tensor:
         """Backward pass of the dropout layer.
         
         Use the stored self.mask from the most recent forward pass.
         """
-        keep_prob = 1 - self.p
-        return  grad * self.mask / keep_prob
+        # Your code here
+        keep_prob = 1- self.p
+        return grad * self.mask / keep_prob
