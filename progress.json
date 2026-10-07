@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:57:22.522Z",
+  "generated_at": "2026-10-07T16:14:57.005Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -896,9 +896,9 @@
       "url": "https://www.deep-ml.com/problems/115",
       "path": "problems/0115-implement-batch-normalization-for-bchw-input",
       "first_solved_at": "2026-10-07T06:57:21.702Z",
-      "last_pushed_at": "2026-10-07T06:57:21.702Z",
+      "last_pushed_at": "2026-10-07T16:14:56.375Z",
       "language": "python",
-      "lines": 9
+      "lines": 50
     }
   }
 }
