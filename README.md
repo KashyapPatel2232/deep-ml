@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**70** solved · 53 problems · 5 labs · 12 math
+**71** solved · 54 problems · 5 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -52,6 +52,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Dropout Layer](https://www.deep-ml.com/problems/151) | medium | 2026-10-06 | [solution](problems/0151-dropout-layer) |
 | [Implement Adam Optimization Algorithm](https://www.deep-ml.com/problems/49) | medium | 2026-10-03 | [solution](problems/0049-implement-adam-optimization-algorithm) |
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-03 | [solution](problems/0169-implement-adamw-optimizer-step) |
+| [Implement Batch Normalization for BCHW Input](https://www.deep-ml.com/problems/115) | medium | 2026-10-07 | [solution](problems/0115-implement-batch-normalization-for-bchw-input) |
 | [Implement Gradient Descent Variants with MSE Loss](https://www.deep-ml.com/problems/47) | medium | 2026-10-02 | [solution](problems/0047-implement-gradient-descent-variants-with-mse-loss) |
 | [Implement RMSProp Optimizer](https://www.deep-ml.com/problems/200) | medium | 2026-10-03 | [solution](problems/0200-implement-rmsprop-optimizer) |
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-02 | [solution](problems/0026-implementing-basic-autograd-operations) |
