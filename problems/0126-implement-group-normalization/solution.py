@@ -1,29 +1,18 @@
-import torch
+import numpy as np
 
-def group_normalization(X: torch.Tensor, gamma: torch.Tensor, beta: torch.Tensor, num_groups: int, epsilon: float = 1e-5) -> torch.Tensor:
-    """
-    Perform Group Normalization on a 4D input tensor.
-    
-    Args:
-        X: torch tensor of shape (B, C, H, W), input data
-        gamma: torch tensor of shape (1, C, 1, 1), scale parameter
-        beta: torch tensor of shape (1, C, 1, 1), shift parameter
-        num_groups: number of groups for normalization
-        epsilon: small constant to avoid division by zero
-    
-    Returns:
-        norm_X: torch tensor of shape (B, C, H, W), normalized output
-    """
+def group_normalization(X: np.ndarray, gamma: np.ndarray, beta: np.ndarray, num_groups: int, epsilon: float = 1e-5) -> np.ndarray:
     B, C, H, W = X.shape
-    grp_sz = C // num_groups 
+    grp_sz = C // num_groups
+    X_reshape = X.reshape(B, num_groups, grp_sz, H, W)
 
-    X_reshaped = X.view(B, num_groups, grp_sz, H, W)
+    mean = X_reshape.mean(axis = (2,3,4), keepdims = True)
+    var = X_reshape.var(axis = (2,3,4), keepdims = True)
 
-    mean = X_reshaped.mean(dim = (2,3,4), keepdims = True)
-    var = X_reshaped.var(dim = (2,3,4), keepdims = True, unbiased = False)
+    norm = (X_reshape - mean) / np.sqrt(var + epsilon)
 
-    norm = (X_reshaped - mean) / torch.sqrt(var + epsilon)
-    norm = norm.view(B, C, H, W)
-    norm_X = gamma * norm + beta
+    norm = norm.reshape(B, C, H, W)
 
-    return norm_X
+    norm_x = norm * gamma + beta
+
+    return norm_x
+    
