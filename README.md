@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**79** solved · 62 problems · 5 labs · 12 math
+**80** solved · 63 problems · 5 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -26,6 +26,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Derivatives of Activation Functions](https://www.deep-ml.com/problems/217) | easy | 2026-09-27 | [solution](problems/0217-derivatives-of-activation-functions) |
 | [Implement a Linear Layer Forward Pass with Matrix Multiplication](https://www.deep-ml.com/problems/883) | easy | 2026-09-29 | [solution](problems/0883-implement-a-linear-layer-forward-pass-with-matrix-multiplication) |
 | [Implement Dropout from Scratch](https://www.deep-ml.com/problems/901) | easy | 2026-10-08 | [solution](problems/0901-implement-dropout-from-scratch) |
+| [Implement Early Stopping Based on Validation Loss](https://www.deep-ml.com/problems/135) | easy | 2026-10-08 | [solution](problems/0135-implement-early-stopping-based-on-validation-loss) |
 | [Implement LayerNorm from Scratch](https://www.deep-ml.com/problems/908) | easy | 2026-10-08 | [solution](problems/0908-implement-layernorm-from-scratch) |
 | [Implement ReLU Activation Function](https://www.deep-ml.com/problems/42) | easy | 2026-09-27 | [solution](problems/0042-implement-relu-activation-function) |
 | [Implement ReLU and Leaky ReLU](https://www.deep-ml.com/problems/1226) | easy | 2026-09-29 | [solution](problems/1226-implement-relu-and-leaky-relu) |
