@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**72** solved · 55 problems · 5 labs · 12 math
+**73** solved · 56 problems · 5 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -57,6 +57,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Group Normalization](https://www.deep-ml.com/problems/126) | medium | 2026-10-08 | [solution](problems/0126-implement-group-normalization) |
 | [Implement RMSProp Optimizer](https://www.deep-ml.com/problems/200) | medium | 2026-10-03 | [solution](problems/0200-implement-rmsprop-optimizer) |
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-02 | [solution](problems/0026-implementing-basic-autograd-operations) |
+| [Instance Normalization (IN) Implementation](https://www.deep-ml.com/problems/143) | medium | 2026-10-08 | [solution](problems/0143-instance-normalization-in-implementation) |
 | [Numerical Gradient Checking](https://www.deep-ml.com/problems/313) | medium | 2026-10-02 | [solution](problems/0313-numerical-gradient-checking) |
 | [Numerically Stable Softmax](https://www.deep-ml.com/problems/1227) | medium | 2026-09-29 | [solution](problems/1227-numerically-stable-softmax) |
 | [One Adam Update Step](https://www.deep-ml.com/problems/1236) | medium | 2026-10-03 | [solution](problems/1236-one-adam-update-step) |
