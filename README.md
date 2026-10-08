@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**77** solved · 60 problems · 5 labs · 12 math
+**78** solved · 61 problems · 5 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -56,6 +56,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Adam Optimization Algorithm](https://www.deep-ml.com/problems/49) | medium | 2026-10-03 | [solution](problems/0049-implement-adam-optimization-algorithm) |
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-03 | [solution](problems/0169-implement-adamw-optimizer-step) |
 | [Implement Batch Normalization for BCHW Input](https://www.deep-ml.com/problems/115) | medium | 2026-10-07 | [solution](problems/0115-implement-batch-normalization-for-bchw-input) |
+| [Implement BatchNorm2d from Scratch (training mode)](https://www.deep-ml.com/problems/902) | medium | 2026-10-08 | [solution](problems/0902-implement-batchnorm2d-from-scratch-training-mode) |
 | [Implement Gradient Descent Variants with MSE Loss](https://www.deep-ml.com/problems/47) | medium | 2026-10-02 | [solution](problems/0047-implement-gradient-descent-variants-with-mse-loss) |
 | [Implement Group Normalization](https://www.deep-ml.com/problems/126) | medium | 2026-10-08 | [solution](problems/0126-implement-group-normalization) |
 | [Implement Layer Normalization for Sequence Data](https://www.deep-ml.com/problems/109) | medium | 2026-10-08 | [solution](problems/0109-implement-layer-normalization-for-sequence-data) |
