@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:03:55.076Z",
+  "generated_at": "2026-10-08T04:06:06.474Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -922,9 +922,9 @@
       "url": "https://www.deep-ml.com/problems/143",
       "path": "problems/0143-instance-normalization-in-implementation",
       "first_solved_at": "2026-10-08T04:03:54.482Z",
-      "last_pushed_at": "2026-10-08T04:03:54.482Z",
+      "last_pushed_at": "2026-10-08T04:06:05.848Z",
       "language": "python",
-      "lines": 16
+      "lines": 17
     }
   }
 }
