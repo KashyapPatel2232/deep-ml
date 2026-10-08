@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T07:36:48.741Z",
+  "generated_at": "2026-10-08T07:48:55.837Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1013,9 +1013,9 @@
       "url": "https://www.deep-ml.com/problems/135",
       "path": "problems/0135-implement-early-stopping-based-on-validation-loss",
       "first_solved_at": "2026-10-08T07:36:48.059Z",
-      "last_pushed_at": "2026-10-08T07:36:48.059Z",
+      "last_pushed_at": "2026-10-08T07:48:55.216Z",
       "language": "python",
-      "lines": 24
+      "lines": 35
     }
   }
 }
