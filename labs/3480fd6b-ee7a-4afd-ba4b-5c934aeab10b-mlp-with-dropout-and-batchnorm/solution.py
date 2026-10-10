@@ -17,14 +17,22 @@ class RegularizedMLP(nn.Module):
         self.layer =  nn.Sequential(
             nn.Linear(self.input_dim, self.hidden_dim),
             nn.BatchNorm1d(self.hidden_dim),
-            nn.ReLU(),
+            nn.GELU(),
             nn.Dropout(self.dropout_p),
             nn.Linear(self.hidden_dim, self.hidden_dim),
-            nn.ReLU(),
+            nn.GELU(),
             nn.BatchNorm1d(self.hidden_dim),
             nn.Dropout(self.dropout_p),
             nn.Linear(self.hidden_dim, 1)
         )
+        self._init_weights()
+
+    def _init_weights(self):
+        for m in self.modules():
+            if isinstance(m, nn.Linear):
+                nn.init.kaiming_normal_(m.weight, mode="fan_in", nonlinearity="relu")
+                if m.bias is not None:
+                    nn.init.zeros_(m.bias)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """Return shape (N,) logits for batch x of shape (N, input_dim)."""

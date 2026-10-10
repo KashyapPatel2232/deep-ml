@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T12:00:19.014Z",
+  "generated_at": "2026-10-10T12:07:35.968Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1130,9 +1130,9 @@
       "url": "https://www.deep-ml.com/labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b",
       "path": "labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b-mlp-with-dropout-and-batchnorm",
       "first_solved_at": "2026-10-10T12:00:18.418Z",
-      "last_pushed_at": "2026-10-10T12:00:18.418Z",
+      "last_pushed_at": "2026-10-10T12:07:35.195Z",
       "language": "python",
-      "lines": 53
+      "lines": 61
     }
   }
 }
