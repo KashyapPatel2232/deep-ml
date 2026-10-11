@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**91** solved · 72 problems · 7 labs · 12 math
+**92** solved · 73 problems · 7 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -77,6 +77,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Numerically Stable Softmax](https://www.deep-ml.com/problems/1227) | medium | 2026-09-29 | [solution](problems/1227-numerically-stable-softmax) |
 | [One Adam Update Step](https://www.deep-ml.com/problems/1236) | medium | 2026-10-03 | [solution](problems/1236-one-adam-update-step) |
 | [One Training Step](https://www.deep-ml.com/problems/1219) | medium | 2026-10-04 | [solution](problems/1219-one-training-step) |
+| [Overlapping Max Pooling](https://www.deep-ml.com/problems/190) | medium | 2026-10-11 | [solution](problems/0190-overlapping-max-pooling) |
 | [Poisson Deviance and Overdispersion](https://www.deep-ml.com/problems/1367) | medium | 2026-09-29 | [solution](problems/1367-poisson-deviance-and-overdispersion) |
 | [Power Users With Purchases in Every Month of the Year](https://www.deep-ml.com/problems/1462) | medium | 2026-10-06 | [solution](problems/1462-power-users-with-purchases-in-every-month-of-the-year) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-01 | [solution](problems/1235-sgd-with-momentum-step) |
