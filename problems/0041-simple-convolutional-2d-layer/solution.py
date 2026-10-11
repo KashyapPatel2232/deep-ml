@@ -1,20 +1,19 @@
-import os
-os.environ["TORCH_CPP_LOG_LEVEL"] = "ERROR"
+import numpy as np
 
-import torch
-import torch.nn.functional as F
-
-def simple_conv2d(input_matrix: torch.Tensor, kernel: torch.Tensor, padding: int, stride: int) -> torch.Tensor:
-    """
-    Perform a 2D convolution on a single-channel input using PyTorch's built-in conv2d.
-    input_matrix: 2D tensor (H, W)
-    kernel: 2D tensor (kH, kW)
-    padding: int, zero-padding on all sides
-    stride: int, stride of the convolution
-    """
-    # Hint: conv2d expects input of shape (N, C, H, W) and weight of shape (out_channels, in_channels, kH, kW)
-    input_matrix = input_matrix.unsqueeze(0).unsqueeze(0)
-    kernel = kernel.unsqueeze(0).unsqueeze(0)
-
-    output = F.conv2d(input_matrix, kernel, stride = stride, padding=padding)
-    return output.squeeze(0).squeeze(0)
+def simple_conv2d(input_matrix: np.ndarray, kernel: np.ndarray, padding: int, stride: int):
+	input_height, input_width = input_matrix.shape
+	kernel_height, kernel_width = kernel.shape
+	pad_input = None
+	if padding != 0:
+		pad_input = np.pad(input_matrix, pad_width = padding, mode = 'constant')
+	else:
+		pad_input = input_matrix
+	output_height = (input_height + 2*padding - kernel_height)//stride + 1
+	output_width = (input_width + 2*padding - kernel_width)//stride + 1
+	output = np.zeros((output_height, output_width))
+	for out_x in range(output_height):
+		for out_y in range(output_width):
+			start_x = out_x * stride
+			start_y = out_y * stride
+			output[out_x][out_y] = np.sum(pad_input[start_x:start_x + kernel_height, start_y: start_y + kernel_width] * kernel).item()
+	return output
