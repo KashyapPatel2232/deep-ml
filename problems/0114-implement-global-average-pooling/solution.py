@@ -1,9 +1,13 @@
-import numpy as np
-def global_avg_pool(x: np.ndarray) -> np.ndarray:
-	# Your code here
-	H, W, C = x.shape
-	output = np.zeros(C)
-	for i in range(C):
-		output[i] = np.mean(x[:,:,i], axis = (0,1)).item()
+import torch
 
-	return output
+def global_avg_pool(x: torch.Tensor) -> torch.Tensor:
+    """
+    Performs Global Average Pooling on a 3D tensor representing feature maps.
+    
+    Args:
+        x: Input tensor of shape (height, width, channels)
+    
+    Returns:
+        1D tensor of shape (channels,) with average values per channel
+    """
+    return x.mean(dim = (0,1), keepdim = False)
