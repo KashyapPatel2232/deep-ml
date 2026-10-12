@@ -1,13 +1,17 @@
-import numpy as np
+import torch
 
-def residual_block(x: np.ndarray, w1: np.ndarray, w2: np.ndarray) -> np.ndarray:
-	# Your code here
-	out1 = w1 @ x
-
-	out2 = out1 * (out1 > 0)
-
-	out3 = w2 @ out2 + x
-
-	output = out3 * (out3 > 0)
-
-	return output
+def residual_block(x: torch.Tensor, w1: torch.Tensor, w2: torch.Tensor) -> torch.Tensor:
+    """
+    Implement a simple residual block with shortcut connection.
+    
+    Args:
+        x: 1D input tensor
+        w1: First weight matrix
+        w2: Second weight matrix
+    
+    Returns:
+        Output tensor after residual block processing
+    """
+    out1 = torch.relu(x @ w1.T)
+    out2 = torch.relu(out1 @ w2.T + x)
+    return out2
