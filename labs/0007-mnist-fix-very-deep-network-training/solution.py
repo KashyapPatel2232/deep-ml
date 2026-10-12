@@ -10,7 +10,7 @@ class DeepNetwork(nn.Module):
         self.input_layer = nn.Linear(input_size, hidden_size, bias=False)
         self.input_bn = nn.BatchNorm1d(hidden_size)
 
-        # 30 hidden layers (satisfies depth >= 30 constraint)
+        # 30 hidden layers (15 blocks x 2 layers; depth >= 30)
         self.layers = nn.ModuleList(
             [nn.Linear(hidden_size, hidden_size, bias=False) for _ in range(30)]
         )
@@ -18,16 +18,16 @@ class DeepNetwork(nn.Module):
             [nn.BatchNorm1d(hidden_size) for _ in range(30)]
         )
 
-        # Normalization layer for the accumulated 30-layer representation
+        # Normalization layer for the accumulated representation
         self.final_bn = nn.BatchNorm1d(hidden_size)
 
         # Output classification layer
         self.output_layer = nn.Linear(hidden_size, num_classes)
 
-        # LeakyReLU allows both feature amplification and suppression
+        # LeakyReLU preserves bidirectional updates
         self.activation = nn.LeakyReLU(negative_slope=0.1)
 
-        # Initialize weights for fast 5-epoch convergence
+        # Initialize weights for fast convergence
         self._init_weights()
 
         # Gradient clipping via backward hooks
@@ -46,6 +46,7 @@ class DeepNetwork(nn.Module):
                 nn.init.zeros_(m.bias)
 
     def _enable_gradient_clipping(self, max_val: float = 1.0):
+        """Clamps gradients element-wise during backward()."""
         for param in self.parameters():
             if param.requires_grad:
                 param.register_hook(
@@ -59,13 +60,24 @@ class DeepNetwork(nn.Module):
         # Initial projection
         x = self.activation(self.input_bn(self.input_layer(x)))
 
-        # 30 single-layer residual blocks
-        for layer, bn in zip(self.layers, self.bns_list):
+        # 15 two-layer residual blocks
+        for i in range(0, 30, 2):
             residual = x
-            out = self.activation(bn(layer(x)))
+
+            # Sub-layer 1: Linear -> BN -> LeakyReLU
+            out = self.layers[i](x)
+            out = self.bns_list[i](out)
+            out = self.activation(out)
+
+            # Sub-layer 2: Linear -> BN -> LeakyReLU
+            out = self.layers[i + 1](out)
+            out = self.bns_list[i + 1](out)
+            out = self.activation(out)
+
+            # Pure identity addition: NO activation wrapping the sum
             x = residual + out
 
-        # Standardize the accumulated 30-layer sum before classification
+        # Standardize representation before logits
         x = self.final_bn(x)
 
         # Output logits tensor: (batch_size, 10)
