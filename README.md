@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**93** solved · 74 problems · 7 labs · 12 math
+**94** solved · 75 problems · 7 labs · 12 math
 
 ![Coverage](./coverage.svg)
 
@@ -28,6 +28,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Early Stopping Based on Validation Loss Plateau](https://www.deep-ml.com/problems/199) | easy | 2026-10-09 | [solution](problems/0199-early-stopping-based-on-validation-loss-plateau) |
 | [Early Stopping with Patience](https://www.deep-ml.com/problems/913) | easy | 2026-10-09 | [solution](problems/0913-early-stopping-with-patience) |
 | [Implement a Linear Layer Forward Pass with Matrix Multiplication](https://www.deep-ml.com/problems/883) | easy | 2026-09-29 | [solution](problems/0883-implement-a-linear-layer-forward-pass-with-matrix-multiplication) |
+| [Implement a Simple Residual Block with Shortcut Connection](https://www.deep-ml.com/problems/113) | easy | 2026-10-12 | [solution](problems/0113-implement-a-simple-residual-block-with-shortcut-connection) |
 | [Implement Dropout from Scratch](https://www.deep-ml.com/problems/901) | easy | 2026-10-08 | [solution](problems/0901-implement-dropout-from-scratch) |
 | [Implement Early Stopping Based on Validation Loss](https://www.deep-ml.com/problems/135) | easy | 2026-10-08 | [solution](problems/0135-implement-early-stopping-based-on-validation-loss) |
 | [Implement Global Average Pooling](https://www.deep-ml.com/problems/114) | easy | 2026-10-11 | [solution](problems/0114-implement-global-average-pooling) |
