@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T01:56:29.038Z",
+  "generated_at": "2026-10-13T02:54:17.703Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1250,6 +1250,19 @@
       "last_pushed_at": "2026-10-13T01:56:28.097Z",
       "language": "python",
       "lines": 8
+    },
+    "problem:900": {
+      "kind": "problem",
+      "id": "900",
+      "title": "Implement Conv2d with `unfold`",
+      "difficulty": "medium",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/900",
+      "path": "problems/0900-implement-conv2d-with-unfold",
+      "first_solved_at": "2026-10-13T02:54:15.076Z",
+      "last_pushed_at": "2026-10-13T02:54:15.076Z",
+      "language": "python",
+      "lines": 26
     }
   }
 }
