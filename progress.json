@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:13:05.690Z",
+  "generated_at": "2026-10-14T02:30:57.853Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1286,9 +1286,9 @@
       "url": "https://www.deep-ml.com/labs/2",
       "path": "labs/0002-mnist-design-your-own-tiny-pytorch-model",
       "first_solved_at": "2026-10-13T17:28:03.115Z",
-      "last_pushed_at": "2026-10-13T17:32:18.208Z",
+      "last_pushed_at": "2026-10-14T02:30:57.222Z",
       "language": "python",
-      "lines": 80
+      "lines": 46
     },
     "problem:1057": {
       "kind": "problem",
