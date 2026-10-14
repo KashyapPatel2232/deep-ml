@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**103** solved · 82 problems · 9 labs · 12 math
+**104** solved · 82 problems · 9 labs · 13 math
 
 ![Coverage](./coverage.svg)
 
@@ -117,6 +117,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Gradient Descent Updates](https://www.deep-ml.com/math-problems/5) | easy | 2026-09-27 | [solution](math/0005-gradient-descent-updates) |
 | [Vector Operations](https://www.deep-ml.com/math-problems/7) | easy | 2026-10-03 | [solution](math/0007-vector-operations) |
 | [Backpropagation and the Chain Rule](https://www.deep-ml.com/math-problems/4) | medium | 2026-09-29 | [solution](math/0004-backpropagation-and-the-chain-rule) |
+| [Information Theory: Entropy](https://www.deep-ml.com/math-problems/24) | medium | 2026-10-14 | [solution](math/0024-information-theory-entropy) |
 | [Log-Likelihood Gradients](https://www.deep-ml.com/math-problems/38) | medium | 2026-09-27 | [solution](math/0038-log-likelihood-gradients) |
 | [Matrix Calculus Identities](https://www.deep-ml.com/math-problems/35) | medium | 2026-09-29 | [solution](math/0035-matrix-calculus-identities) |
 | [Neural Network Derivatives](https://www.deep-ml.com/math-problems/3) | medium | 2026-09-29 | [solution](math/0003-neural-network-derivatives) |
