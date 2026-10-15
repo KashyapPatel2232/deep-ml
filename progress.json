@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:32:09.611Z",
+  "generated_at": "2026-10-15T01:35:53.510Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1348,6 +1348,19 @@
       "path": "math/0026-maximum-likelihood-and-map",
       "first_solved_at": "2026-10-15T01:31:02.951Z",
       "last_pushed_at": "2026-10-15T01:32:08.786Z"
+    },
+    "problem:1102": {
+      "kind": "problem",
+      "id": "1102",
+      "title": "Select specific columns",
+      "difficulty": "easy",
+      "category": "Sql",
+      "url": "https://www.deep-ml.com/problems/1102",
+      "path": "problems/1102-select-specific-columns",
+      "first_solved_at": "2026-10-15T01:35:52.908Z",
+      "last_pushed_at": "2026-10-15T01:35:52.908Z",
+      "language": "sql",
+      "lines": 8
     }
   }
 }
