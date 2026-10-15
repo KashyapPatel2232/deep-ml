@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T02:16:34.530Z",
+  "generated_at": "2026-10-15T02:20:18.021Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1384,9 +1384,9 @@
       "url": "https://www.deep-ml.com/problems/54",
       "path": "problems/0054-implementing-a-simple-rnn",
       "first_solved_at": "2026-10-15T02:16:33.832Z",
-      "last_pushed_at": "2026-10-15T02:16:33.832Z",
+      "last_pushed_at": "2026-10-15T02:20:15.732Z",
       "language": "python",
-      "lines": 13
+      "lines": 28
     }
   }
 }
