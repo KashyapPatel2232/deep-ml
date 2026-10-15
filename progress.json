@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:31:03.764Z",
+  "generated_at": "2026-10-15T01:32:09.611Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1347,7 +1347,7 @@
       "url": "https://www.deep-ml.com/math-problems/26",
       "path": "math/0026-maximum-likelihood-and-map",
       "first_solved_at": "2026-10-15T01:31:02.951Z",
-      "last_pushed_at": "2026-10-15T01:31:02.951Z"
+      "last_pushed_at": "2026-10-15T01:32:08.786Z"
     }
   }
 }
