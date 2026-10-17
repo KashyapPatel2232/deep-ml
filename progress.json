@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:48:05.110Z",
+  "generated_at": "2026-10-17T06:05:10.541Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1431,6 +1431,19 @@
       "path": "math/0014-orthogonality-and-projections",
       "first_solved_at": "2026-10-16T15:48:04.450Z",
       "last_pushed_at": "2026-10-16T15:48:04.450Z"
+    },
+    "problem:62": {
+      "kind": "problem",
+      "id": "62",
+      "title": "Implement a Simple RNN with Backpropagation Through Time (BPTT)",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/62",
+      "path": "problems/0062-implement-a-simple-rnn-with-backpropagation-through-time-bptt",
+      "first_solved_at": "2026-10-17T06:05:09.886Z",
+      "last_pushed_at": "2026-10-17T06:05:09.886Z",
+      "language": "python",
+      "lines": 72
     }
   }
 }
