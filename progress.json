@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T06:05:10.541Z",
+  "generated_at": "2026-10-17T08:36:13.466Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1441,7 +1441,7 @@
       "url": "https://www.deep-ml.com/problems/62",
       "path": "problems/0062-implement-a-simple-rnn-with-backpropagation-through-time-bptt",
       "first_solved_at": "2026-10-17T06:05:09.886Z",
-      "last_pushed_at": "2026-10-17T06:05:09.886Z",
+      "last_pushed_at": "2026-10-17T08:36:12.841Z",
       "language": "python",
       "lines": 72
     }
