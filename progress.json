@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:58:15.129Z",
+  "generated_at": "2026-10-18T13:18:13.965Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1515,9 +1515,9 @@
       "url": "https://www.deep-ml.com/problems/59",
       "path": "problems/0059-implement-long-short-term-memory-lstm-network",
       "first_solved_at": "2026-10-18T12:58:14.493Z",
-      "last_pushed_at": "2026-10-18T12:58:14.493Z",
+      "last_pushed_at": "2026-10-18T13:18:10.938Z",
       "language": "python",
-      "lines": 37
+      "lines": 54
     }
   }
 }
