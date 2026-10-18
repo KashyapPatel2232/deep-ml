@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T10:19:31.315Z",
+  "generated_at": "2026-10-18T10:20:15.153Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1466,6 +1466,19 @@
       "path": "math/0010-matrix-multiplication",
       "first_solved_at": "2026-10-18T10:19:30.609Z",
       "last_pushed_at": "2026-10-18T10:19:30.609Z"
+    },
+    "problem:83": {
+      "kind": "problem",
+      "id": "83",
+      "title": "Dot Product Calculator",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/83",
+      "path": "problems/0083-dot-product-calculator",
+      "first_solved_at": "2026-10-18T10:20:14.557Z",
+      "last_pushed_at": "2026-10-18T10:20:14.557Z",
+      "language": "python",
+      "lines": 13
     }
   }
 }
