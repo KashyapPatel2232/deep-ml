@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:18:13.965Z",
+  "generated_at": "2026-10-18T15:08:27.708Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1325,7 +1325,7 @@
       "url": "https://www.deep-ml.com/math-problems/24",
       "path": "math/0024-information-theory-entropy",
       "first_solved_at": "2026-10-14T16:37:21.423Z",
-      "last_pushed_at": "2026-10-14T16:38:21.577Z"
+      "last_pushed_at": "2026-10-18T15:08:27.135Z"
     },
     "math:25": {
       "kind": "math",
