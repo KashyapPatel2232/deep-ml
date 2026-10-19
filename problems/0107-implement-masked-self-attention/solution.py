@@ -1,19 +1,18 @@
-import torch
+import numpy as np
 
-def compute_qkv(X: torch.Tensor, W_q: torch.Tensor, W_k: torch.Tensor, W_v: torch.Tensor):
-    """
-    Compute Query (Q), Key (K), and Value (V) matrices.
-    """
-    return torch.matmul(X, W_q), torch.matmul(X, W_k), torch.matmul(X, W_v)
+def compute_qkv(X: np.ndarray, W_q: np.ndarray, W_k: np.ndarray, W_v: np.ndarray):
+	"""
+	Compute Query (Q), Key (K), and Value (V) matrices.
+	"""
+	return np.dot(X, W_q), np.dot(X, W_k), np.dot(X, W_v)
 
-def masked_attention(Q: torch.Tensor, K: torch.Tensor, V: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:
-    """
-    Compute masked self-attention.
-    """
-    # Your code here
-    attention = Q @ K.transpose(-2,-1) / torch.sqrt(torch.tensor(K.shape[-1]))
-    masked_attn = attention + mask
-    norm_masked_attn = torch.max(masked_attn, dim = 1, keepdim=True).values
-    sft_attention = torch.softmax(masked_attn - norm_masked_attn, dim = -1)
-    output = sft_attention @ V
-    return output
+def masked_attention(Q: np.ndarray, K: np.ndarray, V: np.ndarray, mask: np.ndarray) -> np.ndarray:
+	"""
+	Compute masked self-attention.
+	"""
+	# Your code here
+	attention = Q @ K.T / (K.shape[-1] ** 0.5) + mask
+	max_attention = attention - np.max(attention, axis = -1, keepdims = True)
+	sft_attention = np.exp(max_attention) / np.sum(np.exp(max_attention), axis = -1, keepdims = True)
+	output = sft_attention @ V
+	return output
