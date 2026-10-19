@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**123** solved · 92 problems · 9 labs · 22 math
+**124** solved · 93 problems · 9 labs · 22 math
 
 ![Coverage](./coverage.svg)
 
@@ -76,6 +76,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement a ResNet Basic Block](https://www.deep-ml.com/problems/917) | medium | 2026-10-12 | [solution](problems/0917-implement-a-resnet-basic-block) |
 | [Implement Adam Optimization Algorithm](https://www.deep-ml.com/problems/49) | medium | 2026-10-03 | [solution](problems/0049-implement-adam-optimization-algorithm) |
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-03 | [solution](problems/0169-implement-adamw-optimizer-step) |
+| [Implement an LSTM Cell from Scratch](https://www.deep-ml.com/problems/907) | medium | 2026-10-19 | [solution](problems/0907-implement-an-lstm-cell-from-scratch) |
 | [Implement Batch Normalization for BCHW Input](https://www.deep-ml.com/problems/115) | medium | 2026-10-07 | [solution](problems/0115-implement-batch-normalization-for-bchw-input) |
 | [Implement BatchNorm2d from Scratch (training mode)](https://www.deep-ml.com/problems/902) | medium | 2026-10-08 | [solution](problems/0902-implement-batchnorm2d-from-scratch-training-mode) |
 | [Implement Conv2d with `unfold`](https://www.deep-ml.com/problems/900) | medium | 2026-10-13 | [solution](problems/0900-implement-conv2d-with-unfold) |
