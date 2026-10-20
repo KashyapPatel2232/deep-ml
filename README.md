@@ -1,4 +1,5 @@
 # Deep-ML
+[![My ML fingerprint on Deep-ML](https://www.deep-ml.com/api/badge/KashyapPatel2232.svg?repo=deep-ml&t=xwAtmogVXYsCEg)](https://KashyapPatel2232.github.io/deep-ml/)
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
