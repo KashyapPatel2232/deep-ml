@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:06:23.979Z",
+  "generated_at": "2026-10-20T05:49:20.676Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1633,6 +1633,19 @@
       "last_pushed_at": "2026-10-20T05:06:23.384Z",
       "language": "python",
       "lines": 29
+    },
+    "problem:904": {
+      "kind": "problem",
+      "id": "904",
+      "title": "Implement Multi-Head Self-Attention",
+      "difficulty": "hard",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/904",
+      "path": "problems/0904-implement-multi-head-self-attention",
+      "first_solved_at": "2026-10-20T05:49:15.462Z",
+      "last_pushed_at": "2026-10-20T05:49:15.462Z",
+      "language": "python",
+      "lines": 38
     }
   }
 }
