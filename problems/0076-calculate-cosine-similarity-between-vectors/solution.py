@@ -1,14 +1,15 @@
-import numpy as np
+import torch
+import torch.nn.functional as F
 
-def cosine_similarity(v1, v2):
-	"""
-	Calculate the cosine_similarity of two vectors.
-	Args:
-		vec1 (numpy.ndarray): 1D array representing the first vector.
-		vec2 (numpy.ndarray): 1D array representing the second vector.
-	Returns:
-		The cosine_similarity of the two vectors.
-	"""
-	# Implement your code here
-	similarity = np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
-	return similarity
+def cosine_similarity(v1: torch.Tensor, v2: torch.Tensor) -> float:
+    """
+    Calculate the cosine similarity of two vectors using PyTorch.
+    Args:
+        v1 (torch.Tensor): 1D tensor representing the first vector.
+        v2 (torch.Tensor): 1D tensor representing the second vector.
+    Returns:
+        float: The cosine similarity of the two vectors.
+    """
+    # Implement your code here
+    output = F.cosine_similarity(v1.float(), v2.float(), dim=0)
+    return output.item()
