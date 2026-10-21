@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:37:32.657Z",
+  "generated_at": "2026-10-21T16:38:48.186Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1682,9 +1682,9 @@
       "url": "https://www.deep-ml.com/problems/118",
       "path": "problems/0118-compute-the-cross-product-of-two-3d-vectors",
       "first_solved_at": "2026-10-21T16:37:31.813Z",
-      "last_pushed_at": "2026-10-21T16:37:31.813Z",
+      "last_pushed_at": "2026-10-21T16:38:47.540Z",
       "language": "python",
-      "lines": 5
+      "lines": 15
     }
   }
 }
