@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:47:01.773Z",
+  "generated_at": "2026-10-22T14:50:13.716Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1721,9 +1721,9 @@
       "url": "https://www.deep-ml.com/labs/10",
       "path": "labs/0010-design-your-own-attention-mechanism",
       "first_solved_at": "2026-10-22T14:47:01.014Z",
-      "last_pushed_at": "2026-10-22T14:47:01.014Z",
+      "last_pushed_at": "2026-10-22T14:50:12.299Z",
       "language": "python",
-      "lines": 45
+      "lines": 35
     }
   }
 }
