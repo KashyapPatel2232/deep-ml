@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:28:13.136Z",
+  "generated_at": "2026-10-23T01:44:10.791Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1757,6 +1757,19 @@
       "path": "math/0033-expectation-and-variance-algebra",
       "first_solved_at": "2026-10-23T01:28:12.295Z",
       "last_pushed_at": "2026-10-23T01:28:12.295Z"
+    },
+    "problem:1032": {
+      "kind": "problem",
+      "id": "1032",
+      "title": "Tokens-per-Second Throughput from Inference Intervals",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/1032",
+      "path": "problems/1032-tokens-per-second-throughput-from-inference-intervals",
+      "first_solved_at": "2026-10-23T01:44:09.952Z",
+      "last_pushed_at": "2026-10-23T01:44:09.952Z",
+      "language": "python",
+      "lines": 33
     }
   }
 }
