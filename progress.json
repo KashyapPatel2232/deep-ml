@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:24:01.493Z",
+  "generated_at": "2026-10-23T01:26:49.592Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1735,6 +1735,17 @@
       "path": "math/0015-matrix-decompositions-lu-and-qr",
       "first_solved_at": "2026-10-23T01:24:00.593Z",
       "last_pushed_at": "2026-10-23T01:24:00.593Z"
+    },
+    "math:19": {
+      "kind": "math",
+      "id": "19",
+      "title": "Probability Fundamentals",
+      "difficulty": "easy",
+      "category": "Probability and Statistics for Machine Learning",
+      "url": "https://www.deep-ml.com/math-problems/19",
+      "path": "math/0019-probability-fundamentals",
+      "first_solved_at": "2026-10-23T01:26:48.959Z",
+      "last_pushed_at": "2026-10-23T01:26:48.959Z"
     }
   }
 }
