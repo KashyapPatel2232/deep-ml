@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**142** solved · 106 problems · 10 labs · 26 math
+**143** solved · 106 problems · 10 labs · 27 math
 
 ![Coverage](./coverage.svg)
 
@@ -155,6 +155,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Neural Network Derivatives](https://www.deep-ml.com/math-problems/3) | medium | 2026-09-29 | [solution](math/0003-neural-network-derivatives) |
 | [Optimization: Convexity and Critical Points](https://www.deep-ml.com/math-problems/6) | medium | 2026-10-06 | [solution](math/0006-optimization-convexity-and-critical-points) |
 | [Orthogonality and Projections](https://www.deep-ml.com/math-problems/14) | medium | 2026-10-16 | [solution](math/0014-orthogonality-and-projections) |
+| [Positive Definite Matrices and Quadratic Forms](https://www.deep-ml.com/math-problems/50) | medium | 2026-10-24 | [solution](math/0050-positive-definite-matrices-and-quadratic-forms) |
 | [Regularization and Generalization](https://www.deep-ml.com/math-problems/31) | medium | 2026-10-06 | [solution](math/0031-regularization-and-generalization) |
 | [Softmax and Cross-Entropy](https://www.deep-ml.com/math-problems/32) | medium | 2026-09-27 | [solution](math/0032-softmax-and-cross-entropy) |
 | [Solving Linear Systems](https://www.deep-ml.com/math-problems/13) | medium | 2026-10-16 | [solution](math/0013-solving-linear-systems) |
