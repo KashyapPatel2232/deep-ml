@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:30:39.480Z",
+  "generated_at": "2026-10-25T18:00:40.959Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1805,6 +1805,17 @@
       "path": "math/0050-positive-definite-matrices-and-quadratic-forms",
       "first_solved_at": "2026-10-24T17:30:38.752Z",
       "last_pushed_at": "2026-10-24T17:30:38.752Z"
+    },
+    "math:17": {
+      "kind": "math",
+      "id": "17",
+      "title": "Covariance and Correlation",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/17",
+      "path": "math/0017-covariance-and-correlation",
+      "first_solved_at": "2026-10-25T18:00:39.978Z",
+      "last_pushed_at": "2026-10-25T18:00:39.978Z"
     }
   }
 }
