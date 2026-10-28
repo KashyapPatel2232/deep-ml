@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**148** solved · 108 problems · 10 labs · 30 math
+**149** solved · 109 problems · 10 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -99,6 +99,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implementing Basic Autograd Operations](https://www.deep-ml.com/problems/26) | medium | 2026-10-02 | [solution](problems/0026-implementing-basic-autograd-operations) |
 | [Instance Normalization (IN) Implementation](https://www.deep-ml.com/problems/143) | medium | 2026-10-08 | [solution](problems/0143-instance-normalization-in-implementation) |
 | [Jacobian Matrix Calculation](https://www.deep-ml.com/problems/202) | medium | 2026-10-20 | [solution](problems/0202-jacobian-matrix-calculation) |
+| [Knowledge Distillation Loss](https://www.deep-ml.com/problems/227) | medium | 2026-10-28 | [solution](problems/0227-knowledge-distillation-loss) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-18 | [solution](problems/0009-matrix-times-matrix) |
 | [Numerical Gradient Checking](https://www.deep-ml.com/problems/313) | medium | 2026-10-02 | [solution](problems/0313-numerical-gradient-checking) |
 | [Numerically Stable Cross-Entropy](https://www.deep-ml.com/problems/914) | medium | 2026-10-10 | [solution](problems/0914-numerically-stable-cross-entropy) |
