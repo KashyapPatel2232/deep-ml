@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:56:27.027Z",
+  "generated_at": "2026-10-29T14:22:37.305Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1916,6 +1916,19 @@
       "last_pushed_at": "2026-10-29T05:56:26.172Z",
       "language": "python",
       "lines": 12
+    },
+    "problem:911": {
+      "kind": "problem",
+      "id": "911",
+      "title": "Mixed-Precision Forward with `autocast`",
+      "difficulty": "medium",
+      "category": "Pytorch",
+      "url": "https://www.deep-ml.com/problems/911",
+      "path": "problems/0911-mixed-precision-forward-with-autocast",
+      "first_solved_at": "2026-10-29T14:22:36.446Z",
+      "last_pushed_at": "2026-10-29T14:22:36.446Z",
+      "language": "python",
+      "lines": 8
     }
   }
 }
