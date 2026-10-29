@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:38:09.237Z",
+  "generated_at": "2026-10-29T17:45:10.606Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1939,9 +1939,9 @@
       "url": "https://www.deep-ml.com/problems/29",
       "path": "problems/0029-random-shuffle-of-dataset",
       "first_solved_at": "2026-10-29T17:38:08.069Z",
-      "last_pushed_at": "2026-10-29T17:38:08.069Z",
+      "last_pushed_at": "2026-10-29T17:45:09.814Z",
       "language": "python",
-      "lines": 7
+      "lines": 11
     }
   }
 }
