@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**154** solved · 114 problems · 10 labs · 30 math
+**155** solved · 114 problems · 11 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -139,6 +139,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [MNIST: Design-Your-Own tiny Pytorch Model](https://www.deep-ml.com/labs/2) | medium | 2026-10-13 | [solution](labs/0002-mnist-design-your-own-tiny-pytorch-model) |
 | [MNIST: Fix Very Deep Network Training](https://www.deep-ml.com/labs/7) | medium | 2026-10-11 | [solution](labs/0007-mnist-fix-very-deep-network-training) |
 | [PyTorch: Implement Your Own Gradient Descent Training Step](https://www.deep-ml.com/labs/12) | medium | 2026-10-05 | [solution](labs/0012-pytorch-implement-your-own-gradient-descent-training-step) |
+| [MNIST: Adversarial Example Generation](https://www.deep-ml.com/labs/5) | hard | 2026-10-31 | [solution](labs/0005-mnist-adversarial-example-generation) |
 | [MNIST: Classification Loss (with Gradient)](https://www.deep-ml.com/labs/4) | hard | 2026-10-02 | [solution](labs/0004-mnist-classification-loss-with-gradient) |
 | [Train a Tiny CNN Image Classifier](https://www.deep-ml.com/labs/91c76ab2-7d3a-43a7-98ce-385aab6f1691) | hard | 2026-10-14 | [solution](labs/91c76ab2-7d3a-43a7-98ce-385aab6f1691-train-a-tiny-cnn-image-classifier) |
 
