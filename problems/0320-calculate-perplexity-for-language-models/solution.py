@@ -1,4 +1,4 @@
-import torch
+import numpy as np
 
 def calculate_perplexity(probabilities: list[float]) -> float:
     """
@@ -11,6 +11,6 @@ def calculate_perplexity(probabilities: list[float]) -> float:
     Returns:
         Perplexity value as a float
     """
-    probabilities = torch.tensor(probabilities)
-    perplexity = torch.exp(torch.mean(-torch.log(probabilities)))
-    return perplexity.item()
+    probabilities = np.asarray(probabilities)
+    perplexity = np.exp(np.mean(-np.log(probabilities)))
+    return perplexity
