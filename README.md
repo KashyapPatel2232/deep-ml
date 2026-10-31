@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**161** solved · 119 problems · 12 labs · 30 math
+**162** solved · 120 problems · 12 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -71,6 +71,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Streaming ASR Latency Budget: Chunk Size, Real-Time Factor and Round Trip](https://www.deep-ml.com/problems/1442) | easy | 2026-10-20 | [solution](problems/1442-streaming-asr-latency-budget-chunk-size-real-time-factor-and-round-trip) |
 | [The Logit Margin and the Precision Cliff](https://www.deep-ml.com/problems/1662) | easy | 2026-10-27 | [solution](problems/1662-the-logit-margin-and-the-precision-cliff) |
 | [Tinygrad: Implement Dropout from Scratch](https://www.deep-ml.com/problems/922) | easy | 2026-10-13 | [solution](problems/0922-tinygrad-implement-dropout-from-scratch) |
+| [Tokenizer with Unknown and End-of-Text Tokens](https://www.deep-ml.com/problems/943) | easy | 2026-10-31 | [solution](problems/0943-tokenizer-with-unknown-and-end-of-text-tokens) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-09-29 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Vector Element-wise Sum](https://www.deep-ml.com/problems/121) | easy | 2026-10-20 | [solution](problems/0121-vector-element-wise-sum) |
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-03 | [solution](problems/0087-adam-optimizer) |
