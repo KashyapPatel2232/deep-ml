@@ -1,20 +1,18 @@
-import numpy as np
+import torch
 
-def entropy_and_cross_entropy(P: list[float], Q: list[float]) -> tuple[float, float]:
-	"""
-	Compute entropy of P and cross-entropy between P and Q.
-	
-	Args:
-		P: True probability distribution
-		Q: Predicted probability distribution
-	
-	Returns:
-		Tuple of (entropy H(P), cross-entropy H(P,Q))
-	"""
-	# Your code here
-	P = np.asarray(P, dtype = float)
-	Q = np.asarray(Q, dtype = float)
-	posititve_P = P > 0
-	entropy = -np.sum(P[posititve_P] * np.log(P[posititve_P]))
-	cross_entropy = -np.sum(P[posititve_P] * np.log(Q[posititve_P]))
-	return entropy, cross_entropy
+def entropy_and_cross_entropy(P: torch.Tensor, Q: torch.Tensor) -> tuple[float, float]:
+    """
+    Compute entropy of P and cross-entropy between P and Q.
+    
+    Args:
+        P: True probability distribution (torch.Tensor)
+        Q: Predicted probability distribution (torch.Tensor)
+    
+    Returns:
+        Tuple of (entropy H(P), cross-entropy H(P,Q))
+    """
+    # Your code here
+    pos_p = P > 0
+    entropy = -torch.sum(P[pos_p] * torch.log(P[pos_p]))
+    cross_entropy = -torch.sum(P[pos_p] * torch.log(Q[pos_p]))
+    return entropy.item(), cross_entropy.item()

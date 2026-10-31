@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:38:00.208Z",
+  "generated_at": "2026-10-31T11:40:09.639Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -1978,9 +1978,9 @@
       "url": "https://www.deep-ml.com/problems/205",
       "path": "problems/0205-entropy-cross-entropy",
       "first_solved_at": "2026-10-31T11:37:59.580Z",
-      "last_pushed_at": "2026-10-31T11:37:59.580Z",
+      "last_pushed_at": "2026-10-31T11:40:08.406Z",
       "language": "python",
-      "lines": 20
+      "lines": 18
     }
   }
 }
