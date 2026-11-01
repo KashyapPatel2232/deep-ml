@@ -1,11 +1,11 @@
-import torch
+import numpy as np
 
-def flip(a: torch.Tensor) -> torch.Tensor:
-    """Reverse a vector via index arithmetic (no torch.flip)."""
+def flip(a: np.ndarray) -> np.ndarray:
+    """Reverse 1-D array a without slicing a[::-1]."""
     # Your code here
     n = len(a)
-    rev = torch.zeros_like(a)
+    rev = np.zeros_like(a)
     for i in range(len(a)):
-        rev[n - 1 - i] = a[i]
+        rev[n-1-i] = a[i]
 
     return rev
