@@ -1,6 +1,6 @@
-import torch
+import numpy as np
 
-def vector_sum(a: torch.Tensor):
-    """Sum elements of a via a dot product with a ones vector (no torch.sum)."""
+def vector_sum(a: np.ndarray):
+    """Sum elements of 1-D array a without np.sum / loops."""
     # Your code here
-    return torch.sum(a)
+    return np.sum(a)
