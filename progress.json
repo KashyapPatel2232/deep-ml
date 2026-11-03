@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:34:14.691Z",
+  "generated_at": "2026-11-03T02:38:46.720Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2147,9 +2147,9 @@
       "url": "https://www.deep-ml.com/problems/380",
       "path": "problems/0380-byte-pair-encoding-bpe-tokenizer",
       "first_solved_at": "2026-11-03T02:34:13.780Z",
-      "last_pushed_at": "2026-11-03T02:34:13.780Z",
+      "last_pushed_at": "2026-11-03T02:38:45.774Z",
       "language": "python",
-      "lines": 58
+      "lines": 75
     }
   }
 }

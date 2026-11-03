@@ -1,6 +1,8 @@
+import torch
+
 def byte_pair_encoding(corpus: dict, num_merges: int) -> list:
     """
-    Train a BPE tokenizer on the given corpus.
+    Train a BPE tokenizer on the given corpus using PyTorch for pair counting.
     
     Args:
         corpus: Dictionary mapping space-separated token sequences to their frequencies.
@@ -12,19 +14,34 @@ def byte_pair_encoding(corpus: dict, num_merges: int) -> list:
         Example: [('l', 'o'), ('lo', 'w')]
     """
     output = []
+    
     def output_pairs(corpus: dict, num_merges: int):
-        pairs = {}
-        for key in corpus:
-            token = key
-            freq = corpus[key]
-            ls = token.split(" ")
+        pair_list = []
+        weights = []
+        
+        for key, freq in corpus.items():
+            ls = key.split(" ")
             for i in range(len(ls) - 1):
-                pair = (ls[i], ls[i+1])
-                if pair not in pairs:
-                    pairs[pair] = freq
-                else:
-                    pairs[pair] += freq
-        pairs = dict(sorted(pairs.items(), key=lambda item: (-item[1], item[0])))
+                pair_list.append((ls[i], ls[i+1]))
+                weights.append(freq)
+                
+        if not pair_list:
+            return {}
+
+        unique_pairs = sorted(list(set(pair_list)))
+        pair_to_idx = {pair: idx for idx, pair in enumerate(unique_pairs)}
+        
+        indices = torch.tensor([pair_to_idx[p] for p in pair_list], dtype=torch.long)
+        weights_tensor = torch.tensor(weights, dtype=torch.long)
+
+        counts = torch.bincount(indices, weights=weights_tensor)
+        
+        sorted_indices = torch.argsort(counts, descending=True, stable=True)
+        
+        pairs = {
+            unique_pairs[idx.item()]: counts[idx.item()].item() 
+            for idx in sorted_indices
+        }
         return pairs
 
     new_corpus = corpus
