@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T04:48:57.361Z",
+  "generated_at": "2026-11-03T05:02:08.698Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2160,9 +2160,9 @@
       "url": "https://www.deep-ml.com/labs/19",
       "path": "labs/0019-build-a-tokenizer-for-language-modeling",
       "first_solved_at": "2026-11-03T04:48:56.583Z",
-      "last_pushed_at": "2026-11-03T04:48:56.583Z",
+      "last_pushed_at": "2026-11-03T05:02:08.060Z",
       "language": "python",
-      "lines": 119
+      "lines": 449
     }
   }
 }
