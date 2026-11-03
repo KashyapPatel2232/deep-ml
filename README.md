@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**169** solved · 127 problems · 12 labs · 30 math
+**170** solved · 128 problems · 12 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -86,6 +86,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [BatchNorm1d Forward in Eval Mode](https://www.deep-ml.com/problems/1231) | medium | 2026-10-08 | [solution](problems/1231-batchnorm1d-forward-in-eval-mode) |
 | [Binary Cross-Entropy from Logits](https://www.deep-ml.com/problems/1229) | medium | 2026-09-29 | [solution](problems/1229-binary-cross-entropy-from-logits) |
 | [BPE Encode Text Using Merge Table](https://www.deep-ml.com/problems/950) | medium | 2026-11-02 | [solution](problems/0950-bpe-encode-text-using-merge-table) |
+| [Byte Pair Encoding (BPE) Tokenizer](https://www.deep-ml.com/problems/380) | medium | 2026-11-03 | [solution](problems/0380-byte-pair-encoding-bpe-tokenizer) |
 | [CosineAnnealingLR Learning Rate Scheduler](https://www.deep-ml.com/problems/155) | medium | 2026-10-10 | [solution](problems/0155-cosineannealinglr-learning-rate-scheduler) |
 | [Derivative of Cross-Entropy Loss w.r.t. Logits](https://www.deep-ml.com/problems/220) | medium | 2026-10-02 | [solution](problems/0220-derivative-of-cross-entropy-loss-w-r-t-logits) |
 | [Derivative of Softmax](https://www.deep-ml.com/problems/219) | medium | 2026-09-27 | [solution](problems/0219-derivative-of-softmax) |
