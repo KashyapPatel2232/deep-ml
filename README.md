@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**175** solved · 132 problems · 13 labs · 30 math
+**176** solved · 133 problems · 13 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -41,6 +41,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Early Stopping with Patience](https://www.deep-ml.com/problems/913) | easy | 2026-10-09 | [solution](problems/0913-early-stopping-with-patience) |
 | [Embedding Layer as One-Hot Matrix Multiplication](https://www.deep-ml.com/problems/947) | easy | 2026-11-04 | [solution](problems/0947-embedding-layer-as-one-hot-matrix-multiplication) |
 | [Find Most Frequent Token Pair for BPE](https://www.deep-ml.com/problems/948) | easy | 2026-11-01 | [solution](problems/0948-find-most-frequent-token-pair-for-bpe) |
+| [Generate Input-Target Batches for Language Model Training](https://www.deep-ml.com/problems/1080) | easy | 2026-11-04 | [solution](problems/1080-generate-input-target-batches-for-language-model-training) |
 | [Implement a Linear Layer Forward Pass with Matrix Multiplication](https://www.deep-ml.com/problems/883) | easy | 2026-09-29 | [solution](problems/0883-implement-a-linear-layer-forward-pass-with-matrix-multiplication) |
 | [Implement a Simple Residual Block with Shortcut Connection](https://www.deep-ml.com/problems/113) | easy | 2026-10-12 | [solution](problems/0113-implement-a-simple-residual-block-with-shortcut-connection) |
 | [Implement Dropout from Scratch](https://www.deep-ml.com/problems/901) | easy | 2026-10-08 | [solution](problems/0901-implement-dropout-from-scratch) |
