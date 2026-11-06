@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="384" viewBox="0 0 880 384" role="img" aria-label="Deep-ML coverage: 139 of 1917 problems solved">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="384" viewBox="0 0 880 384" role="img" aria-label="Deep-ML coverage: 140 of 1917 problems solved">
 <style>
   .bg{fill:#ffffff}.tx{fill:#18181b}.dim{fill:#71717a}.none{fill:#e4e4e7}
   .e{fill:#15a349}.m{fill:#d08700}.h{fill:#dc2626}.u{fill:#a1a1aa}
@@ -1126,7 +1126,7 @@
 <rect x="731" y="245" width="7" height="7" rx="1.5" class="none"/>
 <rect x="740" y="245" width="7" height="7" rx="1.5" class="none"/>
 <text x="20" y="270" class="tx" font-size="11" font-family="ui-monospace,monospace">Sql</text>
-<text x="860" y="270" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">3/51</text>
+<text x="860" y="270" class="dim" font-size="11" text-anchor="end" font-family="ui-monospace,monospace">4/51</text>
 <rect x="20" y="278" width="7" height="7" rx="1.5" class="none"/>
 <rect x="29" y="278" width="7" height="7" rx="1.5" class="e"/>
 <rect x="38" y="278" width="7" height="7" rx="1.5" class="none"/>
@@ -1162,7 +1162,7 @@
 <rect x="308" y="278" width="7" height="7" rx="1.5" class="none"/>
 <rect x="317" y="278" width="7" height="7" rx="1.5" class="none"/>
 <rect x="326" y="278" width="7" height="7" rx="1.5" class="none"/>
-<rect x="335" y="278" width="7" height="7" rx="1.5" class="none"/>
+<rect x="335" y="278" width="7" height="7" rx="1.5" class="m"/>
 <rect x="344" y="278" width="7" height="7" rx="1.5" class="none"/>
 <rect x="353" y="278" width="7" height="7" rx="1.5" class="none"/>
 <rect x="362" y="278" width="7" height="7" rx="1.5" class="none"/>
@@ -1269,5 +1269,5 @@
 <rect x="587" y="344" width="7" height="7" rx="1.5" class="none"/>
 <rect x="596" y="344" width="7" height="7" rx="1.5" class="none"/>
 <rect x="605" y="344" width="7" height="7" rx="1.5" class="none"/>
-<text x="20" y="375" class="dim" font-size="10.5" font-family="ui-monospace,monospace">139 of 1917 problems solved on Deep-ML  ·  top 8 categories shown</text>
+<text x="20" y="375" class="dim" font-size="10.5" font-family="ui-monospace,monospace">140 of 1917 problems solved on Deep-ML  ·  top 8 categories shown</text>
 </svg>

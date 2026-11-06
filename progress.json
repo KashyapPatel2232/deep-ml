@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:40:54.789Z",
+  "generated_at": "2026-11-06T13:56:13.845Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2306,6 +2306,19 @@
       "last_pushed_at": "2026-11-06T13:40:54.030Z",
       "language": "python",
       "lines": 26
+    },
+    "problem:1180": {
+      "kind": "problem",
+      "id": "1180",
+      "title": "Ad Click-Through Rate by Year",
+      "difficulty": "medium",
+      "category": "Sql",
+      "url": "https://www.deep-ml.com/problems/1180",
+      "path": "problems/1180-ad-click-through-rate-by-year",
+      "first_solved_at": "2026-11-06T13:56:13.093Z",
+      "last_pushed_at": "2026-11-06T13:56:13.093Z",
+      "language": "sql",
+      "lines": 13
     }
   }
 }

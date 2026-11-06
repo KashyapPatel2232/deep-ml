@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**182** solved · 139 problems · 13 labs · 30 math
+**183** solved · 140 problems · 13 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -91,6 +91,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Tokenizer with Unknown and End-of-Text Tokens](https://www.deep-ml.com/problems/943) | easy | 2026-10-31 | [solution](problems/0943-tokenizer-with-unknown-and-end-of-text-tokens) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-09-29 | [solution](problems/0002-transpose-of-a-matrix) |
 | [Vector Element-wise Sum](https://www.deep-ml.com/problems/121) | easy | 2026-10-20 | [solution](problems/0121-vector-element-wise-sum) |
+| [Ad Click-Through Rate by Year](https://www.deep-ml.com/problems/1180) | medium | 2026-11-06 | [solution](problems/1180-ad-click-through-rate-by-year) |
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-03 | [solution](problems/0087-adam-optimizer) |
 | [Analyze Singular Value Spectrum to Determine Intrinsic Rank](https://www.deep-ml.com/problems/876) | medium | 2026-10-03 | [solution](problems/0876-analyze-singular-value-spectrum-to-determine-intrinsic-rank) |
 | [Apply a 2D Convolution](https://www.deep-ml.com/problems/1233) | medium | 2026-10-12 | [solution](problems/1233-apply-a-2d-convolution) |
