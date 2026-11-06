@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:39:59.773Z",
+  "generated_at": "2026-11-06T13:40:54.789Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2303,7 +2303,7 @@
       "url": "https://www.deep-ml.com/problems/61",
       "path": "problems/0061-implement-f-score-calculation-for-binary-classification",
       "first_solved_at": "2026-11-06T13:39:59.067Z",
-      "last_pushed_at": "2026-11-06T13:39:59.067Z",
+      "last_pushed_at": "2026-11-06T13:40:54.030Z",
       "language": "python",
       "lines": 26
     }
