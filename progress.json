@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:29:40.676Z",
+  "generated_at": "2026-11-06T12:55:33.380Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2267,6 +2267,19 @@
       "last_pushed_at": "2026-11-06T12:29:39.966Z",
       "language": "python",
       "lines": 18
+    },
+    "problem:986": {
+      "kind": "problem",
+      "id": "986",
+      "title": "Average Negative Log-Likelihood for Bigram Model",
+      "difficulty": "easy",
+      "category": "NLP",
+      "url": "https://www.deep-ml.com/problems/986",
+      "path": "problems/0986-average-negative-log-likelihood-for-bigram-model",
+      "first_solved_at": "2026-11-06T12:55:32.636Z",
+      "last_pushed_at": "2026-11-06T12:55:32.636Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
