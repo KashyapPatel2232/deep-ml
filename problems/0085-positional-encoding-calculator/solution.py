@@ -1,32 +1,15 @@
-import torch
+import numpy as np
 
-def pos_encoding(position: int, d_model: int):
-    """
-    Compute positional encodings for Transformer models.
-
-    Args:
-        position: sequence length (number of positions)
-        d_model: model dimensionality
-
-    Returns:
-        torch.Tensor of shape (position, d_model) with dtype float16,
-        or -1 if position == 0 or d_model <= 0.
-    """
-    if position == 0 or d_model <= 0:
+def pos_encoding(position: int, d_model: int) -> np.ndarray:
+    """Return sinusoidal encodings for positions 0 through position - 1."""
+    if position < 0 or d_model <= 0:
         return -1
-    
-    even = torch.arange(0, d_model, 2)
-    output = []
 
-    for pos in range(position):
-        temp1 = torch.sin(pos / (10000.0 ** (even / d_model)))
-        temp2 = torch.cos(pos / (10000.0 ** (even / d_model)))
-        temp = torch.zeros(d_model)
-        for i in range(d_model):
-            if i % 2 == 0:
-                temp[i] = temp1[i//2]
-            else:
-                temp[i] = temp2[i//2] 
-        output.append(temp)
-        
-    return torch.stack(output).to(torch.float16)
+    positions = np.arange(position)[:, np.newaxis]
+    dimensions = np.arange(d_model)
+    angles = positions / (10000.0 ** (2 * (dimensions // 2) / d_model))
+
+    encoding = np.empty((position, d_model))
+    encoding[:, 0::2] = np.sin(angles[:, 0::2])
+    encoding[:, 1::2] = np.cos(angles[:, 1::2])
+    return encoding.astype(np.float16)
