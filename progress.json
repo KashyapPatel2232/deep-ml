@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:22:02.521Z",
+  "generated_at": "2026-11-09T12:18:00.369Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2449,6 +2449,19 @@
       "last_pushed_at": "2026-11-09T11:22:01.572Z",
       "language": "python",
       "lines": 31
+    },
+    "problem:959": {
+      "kind": "problem",
+      "id": "959",
+      "title": "Multi-Head Attention with Combined QKV Weight Matrix",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/959",
+      "path": "problems/0959-multi-head-attention-with-combined-qkv-weight-matrix",
+      "first_solved_at": "2026-11-09T12:17:59.379Z",
+      "last_pushed_at": "2026-11-09T12:17:59.379Z",
+      "language": "python",
+      "lines": 37
     }
   }
 }
