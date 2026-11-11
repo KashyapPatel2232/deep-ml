@@ -1,24 +1,34 @@
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
+import numpy as np
 
-class FFNBlock(nn.Module):
+def ffn(x: list[float], W1: list[list[float]], b1: list[float], W2: list[list[float]], b2: list[float], dropout_p: float=0.1, seed: int=42) -> list[float]:
     """
-    Position-wise feed-forward block: Dropout(W2 @ ReLU(W1 @ x + b1) + b2) + x
+    Implement a position-wise feed-forward block with residual and dropout.
 
-    Name the submodules exactly as follows — the tests set their parameters directly:
-        self.linear1 -> nn.Linear(d_model, d_hidden)   # W1, b1
-        self.linear2 -> nn.Linear(d_hidden, d_model)   # W2, b2
-        self.dropout -> nn.Dropout(dropout_p)
+    Args:
+        x: input vector
+        W1, b1: first linear layer parameters
+        W2, b2: second linear layer parameters
+        dropout_p: dropout probability
+        seed: random seed for reproducibility
+
+    Returns:
+        Output vector after FFN block (rounded to 4 decimals)
     """
-    def __init__(self, d_model, d_hidden, dropout_p=0.1):
-        # Your code here
-        super().__init__()
-        self.linear1 = nn.Linear(d_model, d_hidden)
-        self.linear2 = nn.Linear(d_hidden, d_model)
-        self.dropout = nn.Dropout(dropout_p)
+    # Your code here
+    x = np.asarray(x)
+    W1 = np.asarray(W1)
+    W2 = np.asarray(W2)
+    b1 = np.asarray(b1)
+    b2 = np.asarray(b2)
 
-    def forward(self, x):
-        # Your code here
-        output = x + self.dropout(self.linear2(F.relu(self.linear1(x))))
-        return output
+    hidden = W1 @ x + b1
+    relu = np.maximum(hidden, 0.0)
+    out = W2 @ relu + b2
+
+    if dropout_p > 0:
+        np.random.seed(seed)
+        mask = (np.random.rand(*out.shape) > dropout_p) / (1.0- dropout_p)
+        out = out * mask
+    
+    output = out + x
+    return output
