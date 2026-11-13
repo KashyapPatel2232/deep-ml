@@ -1,7 +1,7 @@
-import numpy as np
+import torch
 
-def roll(a: np.ndarray) -> np.ndarray:
-    """Circular left shift by one."""
+def roll(a: torch.Tensor) -> torch.Tensor:
+    """Circular left-shift by one via index arithmetic (no torch.roll)."""
     # Your code here
     n = a.shape[0]
-    return a[(np.arange(n)+1)%n]
+    return a[(torch.arange(n) + 1)%n]
