@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**201** solved · 158 problems · 13 labs · 30 math
+**202** solved · 159 problems · 13 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -160,6 +160,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Temperature Sampling](https://www.deep-ml.com/problems/378) | medium | 2026-11-13 | [solution](problems/0378-temperature-sampling) |
 | [Tensor Puzzle: Sequence Mask by Lengths](https://www.deep-ml.com/problems/1281) | medium | 2026-10-15 | [solution](problems/1281-tensor-puzzle-sequence-mask-by-lengths) |
 | [Tokens-per-Second Throughput from Inference Intervals](https://www.deep-ml.com/problems/1032) | medium | 2026-10-23 | [solution](problems/1032-tokens-per-second-throughput-from-inference-intervals) |
+| [Top-p (Nucleus) Sampling](https://www.deep-ml.com/problems/383) | medium | 2026-11-13 | [solution](problems/0383-top-p-nucleus-sampling) |
 | [Train Bigram Language Model as a Neural Network](https://www.deep-ml.com/problems/988) | medium | 2026-11-07 | [solution](problems/0988-train-bigram-language-model-as-a-neural-network) |
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-09-29 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-11-13 | [solution](problems/0491-build-a-transformer-encoder-layer) |
