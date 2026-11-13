@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**199** solved · 156 problems · 13 labs · 30 math
+**200** solved · 157 problems · 13 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -167,6 +167,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Multi-Head Self-Attention](https://www.deep-ml.com/problems/904) | hard | 2026-10-20 | [solution](problems/0904-implement-multi-head-self-attention) |
 | [Implementing a Custom Dense Layer in Python](https://www.deep-ml.com/problems/40) | hard | 2026-09-30 | [solution](problems/0040-implementing-a-custom-dense-layer-in-python) |
 | [Positional Encoding Calculator](https://www.deep-ml.com/problems/85) | hard | 2026-11-09 | [solution](problems/0085-positional-encoding-calculator) |
+| [Pre-Norm GPT Transformer Block Forward Pass](https://www.deep-ml.com/problems/1056) | hard | 2026-11-13 | [solution](problems/1056-pre-norm-gpt-transformer-block-forward-pass) |
 | [Train a Simple GAN on 1D Gaussian Data](https://www.deep-ml.com/problems/174) | hard | 2026-10-28 | [solution](problems/0174-train-a-simple-gan-on-1d-gaussian-data) |
 
 ## Labs
