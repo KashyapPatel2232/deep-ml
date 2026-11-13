@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**198** solved · 155 problems · 13 labs · 30 math
+**199** solved · 156 problems · 13 labs · 30 math
 
 ![Coverage](./coverage.svg)
 
@@ -161,6 +161,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Tokens-per-Second Throughput from Inference Intervals](https://www.deep-ml.com/problems/1032) | medium | 2026-10-23 | [solution](problems/1032-tokens-per-second-throughput-from-inference-intervals) |
 | [Train Bigram Language Model as a Neural Network](https://www.deep-ml.com/problems/988) | medium | 2026-11-07 | [solution](problems/0988-train-bigram-language-model-as-a-neural-network) |
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-09-29 | [solution](problems/1225-two-layer-mlp-forward-pass) |
+| [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-11-13 | [solution](problems/0491-build-a-transformer-encoder-layer) |
 | [Implement a Simple RNN with Backpropagation Through Time (BPTT)](https://www.deep-ml.com/problems/62) | hard | 2026-10-17 | [solution](problems/0062-implement-a-simple-rnn-with-backpropagation-through-time-bptt) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-19 | [solution](problems/0094-implement-multi-head-attention) |
 | [Implement Multi-Head Self-Attention](https://www.deep-ml.com/problems/904) | hard | 2026-10-20 | [solution](problems/0904-implement-multi-head-self-attention) |
