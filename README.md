@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**205** solved · 160 problems · 13 labs · 32 math
+**206** solved · 161 problems · 13 labs · 32 math
 
 ![Coverage](./coverage.svg)
 
@@ -115,6 +115,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Entropy & Cross-Entropy](https://www.deep-ml.com/problems/205) | medium | 2026-10-31 | [solution](problems/0205-entropy-cross-entropy) |
 | [Gradient Accumulation Over Micro-Batches](https://www.deep-ml.com/problems/912) | medium | 2026-10-10 | [solution](problems/0912-gradient-accumulation-over-micro-batches) |
 | [Gradient Clipping by Norm](https://www.deep-ml.com/problems/909) | medium | 2026-10-09 | [solution](problems/0909-gradient-clipping-by-norm) |
+| [Greedy Streaming Decoder with KV Cache](https://www.deep-ml.com/problems/1055) | medium | 2026-11-14 | [solution](problems/1055-greedy-streaming-decoder-with-kv-cache) |
 | [Implement a Custom `autograd.Function`](https://www.deep-ml.com/problems/903) | medium | 2026-10-13 | [solution](problems/0903-implement-a-custom-autograd-function) |
 | [Implement a ResNet Basic Block](https://www.deep-ml.com/problems/917) | medium | 2026-10-12 | [solution](problems/0917-implement-a-resnet-basic-block) |
 | [Implement a Transformer Encoder Block](https://www.deep-ml.com/problems/905) | medium | 2026-10-22 | [solution](problems/0905-implement-a-transformer-encoder-block) |
