@@ -1,6 +1,6 @@
-import numpy as np
+import torch
 
-def apply_rope(x: np.ndarray, positions: np.ndarray, base: float = 10000.0) -> np.ndarray:
+def apply_rope(x: torch.Tensor, positions: torch.Tensor, base: float = 10000.0) -> torch.Tensor:
     """
     Apply Rotary Positional Embeddings (RoPE) to input embeddings.
     
@@ -14,11 +14,11 @@ def apply_rope(x: np.ndarray, positions: np.ndarray, base: float = 10000.0) -> n
     """
     # Your code here
     seq_len, d = x.shape
-    index = np.arange(d//2, dtype = int)
-    output = np.zeros_like(x)
+    index = torch.arange(d//2, dtype = int)
+    output = torch.zeros_like(x)
     for row, pos in enumerate(positions):
         for i in index:
             theta = pos * (1 / (base ** (2*i / d)))
-            output[row][2*i] = x[row][2*i] * np.cos(theta) - x[row][2*i + 1] * np.sin(theta)
-            output[row][2*i + 1] = x[row][2*i] * np.sin(theta) + x[row][2*i + 1] * np.cos(theta)
+            output[row][2*i] = x[row][2*i] * torch.cos(theta) - x[row][2*i + 1] * torch.sin(theta)
+            output[row][2*i + 1] = x[row][2*i] * torch.sin(theta) + x[row][2*i + 1] * torch.cos(theta)
     return output
