@@ -12,13 +12,17 @@ def apply_rope(x: torch.Tensor, positions: torch.Tensor, base: float = 10000.0) 
     Returns:
         Embeddings with rotary positional encoding applied, shape (seq_len, d)
     """
-    # Your code here
     seq_len, d = x.shape
-    index = torch.arange(d//2, dtype = int)
-    output = torch.zeros_like(x)
-    for row, pos in enumerate(positions):
-        for i in index:
-            theta = pos * (1 / (base ** (2*i / d)))
-            output[row][2*i] = x[row][2*i] * torch.cos(theta) - x[row][2*i + 1] * torch.sin(theta)
-            output[row][2*i + 1] = x[row][2*i] * torch.sin(theta) + x[row][2*i + 1] * torch.cos(theta)
-    return output
+    inv_freq = 1.0 / (base ** (torch.arange(0, d, 2, device=x.device, dtype=x.dtype) / d))
+
+    angles = torch.outer(positions.to(device=x.device, dtype=x.dtype), inv_freq)
+    cos = torch.cos(angles)
+    sin = torch.sin(angles)
+
+    x_even = x[:, 0::2]
+    x_odd = x[:, 1::2]
+
+    out_even = x_even * cos - x_odd * sin
+    out_odd = x_even * sin + x_odd * cos
+
+    return torch.stack((out_even, out_odd), dim=-1).reshape(seq_len, d)
