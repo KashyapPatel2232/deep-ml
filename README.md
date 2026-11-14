@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**206** solved · 161 problems · 13 labs · 32 math
+**207** solved · 162 problems · 13 labs · 32 math
 
 ![Coverage](./coverage.svg)
 
@@ -154,6 +154,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Overlapping Max Pooling](https://www.deep-ml.com/problems/190) | medium | 2026-10-11 | [solution](problems/0190-overlapping-max-pooling) |
 | [Poisson Deviance and Overdispersion](https://www.deep-ml.com/problems/1367) | medium | 2026-09-29 | [solution](problems/1367-poisson-deviance-and-overdispersion) |
 | [Power Users With Purchases in Every Month of the Year](https://www.deep-ml.com/problems/1462) | medium | 2026-10-06 | [solution](problems/1462-power-users-with-purchases-in-every-month-of-the-year) |
+| [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-11-14 | [solution](problems/0381-rotary-positional-embeddings-rope) |
 | [Salary Difference Between Departments with Conditional Aggregation](https://www.deep-ml.com/problems/1124) | medium | 2026-10-23 | [solution](problems/1124-salary-difference-between-departments-with-conditional-aggregation) |
 | [Sample from MLP Character Language Model](https://www.deep-ml.com/problems/991) | medium | 2026-11-08 | [solution](problems/0991-sample-from-mlp-character-language-model) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-01 | [solution](problems/1235-sgd-with-momentum-step) |
