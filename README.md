@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**207** solved · 162 problems · 13 labs · 32 math
+**208** solved · 163 problems · 13 labs · 32 math
 
 ![Coverage](./coverage.svg)
 
@@ -141,6 +141,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Instance Normalization (IN) Implementation](https://www.deep-ml.com/problems/143) | medium | 2026-10-08 | [solution](problems/0143-instance-normalization-in-implementation) |
 | [Jacobian Matrix Calculation](https://www.deep-ml.com/problems/202) | medium | 2026-10-20 | [solution](problems/0202-jacobian-matrix-calculation) |
 | [Knowledge Distillation Loss](https://www.deep-ml.com/problems/227) | medium | 2026-10-28 | [solution](problems/0227-knowledge-distillation-loss) |
+| [KV Cache for Efficient Autoregressive Attention](https://www.deep-ml.com/problems/376) | medium | 2026-11-14 | [solution](problems/0376-kv-cache-for-efficient-autoregressive-attention) |
 | [Matrix times Matrix ](https://www.deep-ml.com/problems/9) | medium | 2026-10-18 | [solution](problems/0009-matrix-times-matrix) |
 | [Mixed-Precision Forward with `autocast`](https://www.deep-ml.com/problems/911) | medium | 2026-10-29 | [solution](problems/0911-mixed-precision-forward-with-autocast) |
 | [MLP Character-Level Language Model Forward Pass](https://www.deep-ml.com/problems/989) | medium | 2026-11-07 | [solution](problems/0989-mlp-character-level-language-model-forward-pass) |
