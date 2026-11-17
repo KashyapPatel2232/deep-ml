@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:25:42.432Z",
+  "generated_at": "2026-11-17T17:35:00.058Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2689,9 +2689,9 @@
       "url": "https://www.deep-ml.com/problems/419",
       "path": "problems/0419-combined-token-sampling-pipeline-temperature-top-k-top-p",
       "first_solved_at": "2026-11-17T17:25:41.344Z",
-      "last_pushed_at": "2026-11-17T17:25:41.344Z",
+      "last_pushed_at": "2026-11-17T17:34:59.216Z",
       "language": "python",
-      "lines": 62
+      "lines": 45
     }
   }
 }

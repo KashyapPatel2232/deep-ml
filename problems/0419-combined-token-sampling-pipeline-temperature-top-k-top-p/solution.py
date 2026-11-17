@@ -1,8 +1,8 @@
-import numpy as np
+import torch
 
 def combined_sampling(logits: list[float], temperature: float = 1.0, top_k: int = 0, top_p: float = 1.0, seed: int = 42) -> dict:
     """
-    Apply a combined sampling pipeline to raw logits.
+    Apply a combined sampling pipeline to raw logits using PyTorch.
     
     Args:
         logits: Raw unnormalized scores for each token
@@ -15,48 +15,31 @@ def combined_sampling(logits: list[float], temperature: float = 1.0, top_k: int 
         Dict with 'probabilities' (list of floats rounded to 4 decimals)
         and 'sampled_token' (int index of chosen token)
     """
-    # For sampling, use: rng = np.random.default_rng(seed)
     # Your code here
-    rng = np.random.default_rng(seed)
-    z = np.asarray(logits, dtype=np.float64)
+    z = torch.tensor(logits, dtype = torch.float64)
+
     if temperature == 0:
-        best_idx = int(np.argmax(z))
-        probs = np.zeros_like(z)
-        probs[best_idx] = 1.0
-        return {
-            "probabilities": [round(float(p), 4) for p in probs],
-            "sampled_token": best_idx,
-        }
+        idx = int(torch.argmax(z))
+        probs = torch.zeros_like(z)
+        probs[idx] = 1.0
+        return {"probabilities": [round(p, 4) for p in probs.tolist()], "sampled_token": idx}
 
-    z = z / temperature
-    
-    if len(z) > top_k > 0:
-        top_k_indices = np.argpartition(z, -top_k)[-top_k:]
-        filtered = np.full_like(z, -np.inf)
-        filtered[top_k_indices] = z[top_k_indices]
-        z = filtered
+    z = z/temperature
 
-    z_shifted = z - np.max(z)
-    exp_z = np.exp(z_shifted)
-    probs = exp_z / np.sum(exp_z)
+    if 0 < top_k < z.numel():
+        vals, idx = torch.topk(z, top_k)
+        z = torch.full_like(z, float("-inf")).scatter_(0, idx, vals)
+
+    probs = torch.softmax(z, dim = -1)
 
     if top_p < 1.0:
-        sorted_indices = np.argsort(probs)[::-1]
-        sorted_probs = probs[sorted_indices]
-        cumsum_probs = np.cumsum(sorted_probs)
+        sorted_probs, sorted_idx = torch.sort(probs, descending = True)
+        mask = (torch.cumsum(sorted_probs, dim = -1) - sorted_probs) >= top_p
+        mask[0] = False
+        probs = probs.scatter(0, sorted_idx, sorted_probs.masked_fill(mask, 0.0))
+        probs = probs / probs.sum()
 
-        remove_mask = (cumsum_probs - sorted_probs) >= top_p
+    gen = torch.Generator(device = z.device).manual_seed(seed)
+    token = int(torch.multinomial(probs, 1, generator = gen))
 
-        remove_mask[0] = False
-
-        probs[sorted_indices[remove_mask]] = 0.0
-        probs = probs / np.sum(probs)
-
-    sample = rng.choice(len(probs), p = probs)
-    return {
-        "probabilities": [round(float(p), 4) for p in probs],
-        "sampled_token": sample,
-    }
-
-
-    
+    return {"probabilities": [round(p, 4) for p in probs.tolist()], "sampled_token": token}
