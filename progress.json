@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:43:21.491Z",
+  "generated_at": "2026-11-19T10:14:17.459Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2729,6 +2729,19 @@
       "last_pushed_at": "2026-11-19T09:43:20.472Z",
       "language": "python",
       "lines": 26
+    },
+    "problem:1255": {
+      "kind": "problem",
+      "id": "1255",
+      "title": "Quantization Scale Calibration (AbsMax and Percentile)",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1255",
+      "path": "problems/1255-quantization-scale-calibration-absmax-and-percentile",
+      "first_solved_at": "2026-11-19T10:14:16.683Z",
+      "last_pushed_at": "2026-11-19T10:14:16.683Z",
+      "language": "python",
+      "lines": 20
     }
   }
 }
