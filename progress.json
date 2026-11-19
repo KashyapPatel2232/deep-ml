@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:44:52.821Z",
+  "generated_at": "2026-11-19T04:55:22.133Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2713,9 +2713,9 @@
       "url": "https://www.deep-ml.com/problems/294",
       "path": "problems/0294-implement-int8-quantization",
       "first_solved_at": "2026-11-19T04:44:51.869Z",
-      "last_pushed_at": "2026-11-19T04:44:51.869Z",
+      "last_pushed_at": "2026-11-19T04:55:21.422Z",
       "language": "python",
-      "lines": 19
+      "lines": 28
     }
   }
 }
