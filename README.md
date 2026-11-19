@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**214** solved · 168 problems · 13 labs · 33 math
+**215** solved · 169 problems · 13 labs · 33 math
 
 ![Coverage](./coverage.svg)
 
@@ -102,6 +102,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Adam Optimizer](https://www.deep-ml.com/problems/87) | medium | 2026-10-03 | [solution](problems/0087-adam-optimizer) |
 | [Analyze Singular Value Spectrum to Determine Intrinsic Rank](https://www.deep-ml.com/problems/876) | medium | 2026-10-03 | [solution](problems/0876-analyze-singular-value-spectrum-to-determine-intrinsic-rank) |
 | [Apply a 2D Convolution](https://www.deep-ml.com/problems/1233) | medium | 2026-10-12 | [solution](problems/1233-apply-a-2d-convolution) |
+| [Asymmetric Uniform Quantization with Zero-Point](https://www.deep-ml.com/problems/1254) | medium | 2026-11-19 | [solution](problems/1254-asymmetric-uniform-quantization-with-zero-point) |
 | [BatchNorm1d Forward in Eval Mode](https://www.deep-ml.com/problems/1231) | medium | 2026-10-08 | [solution](problems/1231-batchnorm1d-forward-in-eval-mode) |
 | [Beam Search Decoding](https://www.deep-ml.com/problems/385) | medium | 2026-11-17 | [solution](problems/0385-beam-search-decoding) |
 | [Binary Cross-Entropy from Logits](https://www.deep-ml.com/problems/1229) | medium | 2026-09-29 | [solution](problems/1229-binary-cross-entropy-from-logits) |
