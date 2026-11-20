@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:14:17.459Z",
+  "generated_at": "2026-11-20T08:30:38.341Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2742,6 +2742,19 @@
       "last_pushed_at": "2026-11-19T10:14:16.683Z",
       "language": "python",
       "lines": 20
+    },
+    "problem:426": {
+      "kind": "problem",
+      "id": "426",
+      "title": "Post-Training Quantization with Per-Channel Scale Factors",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/426",
+      "path": "problems/0426-post-training-quantization-with-per-channel-scale-factors",
+      "first_solved_at": "2026-11-20T08:30:37.613Z",
+      "last_pushed_at": "2026-11-20T08:30:37.613Z",
+      "language": "python",
+      "lines": 24
     }
   }
 }

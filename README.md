@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**216** solved · 170 problems · 13 labs · 33 math
+**217** solved · 171 problems · 13 labs · 33 math
 
 ![Coverage](./coverage.svg)
 
@@ -158,6 +158,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Overlapping Max Pooling](https://www.deep-ml.com/problems/190) | medium | 2026-10-11 | [solution](problems/0190-overlapping-max-pooling) |
 | [Poisson Deviance and Overdispersion](https://www.deep-ml.com/problems/1367) | medium | 2026-09-29 | [solution](problems/1367-poisson-deviance-and-overdispersion) |
 | [Pooled Mean and Pooled Standard Deviation from Summary Stats](https://www.deep-ml.com/problems/1244) | medium | 2026-11-15 | [solution](problems/1244-pooled-mean-and-pooled-standard-deviation-from-summary-stats) |
+| [Post-Training Quantization with Per-Channel Scale Factors](https://www.deep-ml.com/problems/426) | medium | 2026-11-20 | [solution](problems/0426-post-training-quantization-with-per-channel-scale-factors) |
 | [Power Users With Purchases in Every Month of the Year](https://www.deep-ml.com/problems/1462) | medium | 2026-10-06 | [solution](problems/1462-power-users-with-purchases-in-every-month-of-the-year) |
 | [Quantization Scale Calibration (AbsMax and Percentile)](https://www.deep-ml.com/problems/1255) | medium | 2026-11-19 | [solution](problems/1255-quantization-scale-calibration-absmax-and-percentile) |
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-11-14 | [solution](problems/0381-rotary-positional-embeddings-rope) |
