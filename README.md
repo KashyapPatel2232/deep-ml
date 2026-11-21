@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**218** solved · 172 problems · 13 labs · 33 math
+**219** solved · 173 problems · 13 labs · 33 math
 
 ![Coverage](./coverage.svg)
 
@@ -162,6 +162,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Power Users With Purchases in Every Month of the Year](https://www.deep-ml.com/problems/1462) | medium | 2026-10-06 | [solution](problems/1462-power-users-with-purchases-in-every-month-of-the-year) |
 | [Quantization Scale Calibration (AbsMax and Percentile)](https://www.deep-ml.com/problems/1255) | medium | 2026-11-19 | [solution](problems/1255-quantization-scale-calibration-absmax-and-percentile) |
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-11-14 | [solution](problems/0381-rotary-positional-embeddings-rope) |
+| [Row-wise FP8 Quantization with Clamped Scale Factors](https://www.deep-ml.com/problems/779) | medium | 2026-11-21 | [solution](problems/0779-row-wise-fp8-quantization-with-clamped-scale-factors) |
 | [Salary Difference Between Departments with Conditional Aggregation](https://www.deep-ml.com/problems/1124) | medium | 2026-10-23 | [solution](problems/1124-salary-difference-between-departments-with-conditional-aggregation) |
 | [Sample from MLP Character Language Model](https://www.deep-ml.com/problems/991) | medium | 2026-11-08 | [solution](problems/0991-sample-from-mlp-character-language-model) |
 | [SGD with Momentum Step](https://www.deep-ml.com/problems/1235) | medium | 2026-10-01 | [solution](problems/1235-sgd-with-momentum-step) |
