@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T14:05:23.659Z",
+  "generated_at": "2026-11-21T14:12:26.584Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2765,9 +2765,9 @@
       "url": "https://www.deep-ml.com/problems/428",
       "path": "problems/0428-number-format-precision-comparison-fp16-vs-bf16-vs-fp8-vs-fp4",
       "first_solved_at": "2026-11-21T14:05:22.837Z",
-      "last_pushed_at": "2026-11-21T14:05:22.837Z",
+      "last_pushed_at": "2026-11-21T14:12:25.952Z",
       "language": "python",
-      "lines": 69
+      "lines": 68
     }
   }
 }
