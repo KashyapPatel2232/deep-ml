@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**217** solved · 171 problems · 13 labs · 33 math
+**218** solved · 172 problems · 13 labs · 33 math
 
 ![Coverage](./coverage.svg)
 
@@ -179,6 +179,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-19 | [solution](problems/0094-implement-multi-head-attention) |
 | [Implement Multi-Head Self-Attention](https://www.deep-ml.com/problems/904) | hard | 2026-10-20 | [solution](problems/0904-implement-multi-head-self-attention) |
 | [Implementing a Custom Dense Layer in Python](https://www.deep-ml.com/problems/40) | hard | 2026-09-30 | [solution](problems/0040-implementing-a-custom-dense-layer-in-python) |
+| [Number Format Precision Comparison (FP16 vs BF16 vs FP8 vs FP4)](https://www.deep-ml.com/problems/428) | hard | 2026-11-21 | [solution](problems/0428-number-format-precision-comparison-fp16-vs-bf16-vs-fp8-vs-fp4) |
 | [Positional Encoding Calculator](https://www.deep-ml.com/problems/85) | hard | 2026-11-09 | [solution](problems/0085-positional-encoding-calculator) |
 | [Pre-allocated Sliding KV Cache Update](https://www.deep-ml.com/problems/1011) | hard | 2026-11-16 | [solution](problems/1011-pre-allocated-sliding-kv-cache-update) |
 | [Pre-Norm GPT Transformer Block Forward Pass](https://www.deep-ml.com/problems/1056) | hard | 2026-11-13 | [solution](problems/1056-pre-norm-gpt-transformer-block-forward-pass) |
