@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:53:32.261Z",
+  "generated_at": "2026-11-22T10:39:30.767Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2792,6 +2792,19 @@
       "path": "math/0040-logistic-regression-as-maximum-likelihood",
       "first_solved_at": "2026-11-21T16:53:31.518Z",
       "last_pushed_at": "2026-11-21T16:53:31.518Z"
+    },
+    "problem:234": {
+      "kind": "problem",
+      "id": "234",
+      "title": "Block-wise FP8 Quantization",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/234",
+      "path": "problems/0234-block-wise-fp8-quantization",
+      "first_solved_at": "2026-11-22T10:39:29.863Z",
+      "last_pushed_at": "2026-11-22T10:39:29.863Z",
+      "language": "python",
+      "lines": 59
     }
   }
 }

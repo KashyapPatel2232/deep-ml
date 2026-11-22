@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**220** solved · 173 problems · 13 labs · 34 math
+**221** solved · 174 problems · 13 labs · 34 math
 
 ![Coverage](./coverage.svg)
 
@@ -106,6 +106,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [BatchNorm1d Forward in Eval Mode](https://www.deep-ml.com/problems/1231) | medium | 2026-10-08 | [solution](problems/1231-batchnorm1d-forward-in-eval-mode) |
 | [Beam Search Decoding](https://www.deep-ml.com/problems/385) | medium | 2026-11-17 | [solution](problems/0385-beam-search-decoding) |
 | [Binary Cross-Entropy from Logits](https://www.deep-ml.com/problems/1229) | medium | 2026-09-29 | [solution](problems/1229-binary-cross-entropy-from-logits) |
+| [Block-wise FP8 Quantization](https://www.deep-ml.com/problems/234) | medium | 2026-11-22 | [solution](problems/0234-block-wise-fp8-quantization) |
 | [BPE Encode Text Using Merge Table](https://www.deep-ml.com/problems/950) | medium | 2026-11-02 | [solution](problems/0950-bpe-encode-text-using-merge-table) |
 | [Build Scaled Dot-Product Attention](https://www.deep-ml.com/problems/490) | medium | 2026-11-08 | [solution](problems/0490-build-scaled-dot-product-attention) |
 | [Byte Pair Encoding (BPE) Tokenizer](https://www.deep-ml.com/problems/380) | medium | 2026-11-03 | [solution](problems/0380-byte-pair-encoding-bpe-tokenizer) |
