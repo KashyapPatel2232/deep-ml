@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**224** solved · 177 problems · 13 labs · 34 math
+**225** solved · 178 problems · 13 labs · 34 math
 
 ![Coverage](./coverage.svg)
 
@@ -161,6 +161,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Pooled Mean and Pooled Standard Deviation from Summary Stats](https://www.deep-ml.com/problems/1244) | medium | 2026-11-15 | [solution](problems/1244-pooled-mean-and-pooled-standard-deviation-from-summary-stats) |
 | [Post-Training Quantization with Per-Channel Scale Factors](https://www.deep-ml.com/problems/426) | medium | 2026-11-20 | [solution](problems/0426-post-training-quantization-with-per-channel-scale-factors) |
 | [Power Users With Purchases in Every Month of the Year](https://www.deep-ml.com/problems/1462) | medium | 2026-10-06 | [solution](problems/1462-power-users-with-purchases-in-every-month-of-the-year) |
+| [Quantization Quality Check via Perplexity Delta](https://www.deep-ml.com/problems/429) | medium | 2026-11-22 | [solution](problems/0429-quantization-quality-check-via-perplexity-delta) |
 | [Quantization Scale Calibration (AbsMax and Percentile)](https://www.deep-ml.com/problems/1255) | medium | 2026-11-19 | [solution](problems/1255-quantization-scale-calibration-absmax-and-percentile) |
 | [Rotary Positional Embeddings (RoPE)](https://www.deep-ml.com/problems/381) | medium | 2026-11-14 | [solution](problems/0381-rotary-positional-embeddings-rope) |
 | [Row-wise FP8 Quantization with Clamped Scale Factors](https://www.deep-ml.com/problems/779) | medium | 2026-11-21 | [solution](problems/0779-row-wise-fp8-quantization-with-clamped-scale-factors) |
