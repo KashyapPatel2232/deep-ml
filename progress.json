@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:28:11.907Z",
+  "generated_at": "2026-11-22T14:06:46.283Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2818,6 +2818,19 @@
       "last_pushed_at": "2026-11-22T13:28:10.730Z",
       "language": "python",
       "lines": 30
+    },
+    "problem:1256": {
+      "kind": "problem",
+      "id": "1256",
+      "title": "INT4 Pack/Unpack and Weight-Only W4A16 Matmul",
+      "difficulty": "hard",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/1256",
+      "path": "problems/1256-int4-pack-unpack-and-weight-only-w4a16-matmul",
+      "first_solved_at": "2026-11-22T14:06:45.685Z",
+      "last_pushed_at": "2026-11-22T14:06:45.685Z",
+      "language": "python",
+      "lines": 41
     }
   }
 }
