@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**221** solved · 174 problems · 13 labs · 34 math
+**222** solved · 175 problems · 13 labs · 34 math
 
 ![Coverage](./coverage.svg)
 
@@ -177,6 +177,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Two-Layer MLP Forward Pass](https://www.deep-ml.com/problems/1225) | medium | 2026-09-29 | [solution](problems/1225-two-layer-mlp-forward-pass) |
 | [Build a Transformer Encoder Layer](https://www.deep-ml.com/problems/491) | hard | 2026-11-13 | [solution](problems/0491-build-a-transformer-encoder-layer) |
 | [Combined Token Sampling Pipeline (Temperature + Top-k + Top-p)](https://www.deep-ml.com/problems/419) | hard | 2026-11-17 | [solution](problems/0419-combined-token-sampling-pipeline-temperature-top-k-top-p) |
+| [FP4 Quantization with Microscaling (MXFP4)](https://www.deep-ml.com/problems/427) | hard | 2026-11-22 | [solution](problems/0427-fp4-quantization-with-microscaling-mxfp4) |
 | [Implement a Simple RNN with Backpropagation Through Time (BPTT)](https://www.deep-ml.com/problems/62) | hard | 2026-10-17 | [solution](problems/0062-implement-a-simple-rnn-with-backpropagation-through-time-bptt) |
 | [Implement Multi-Head Attention](https://www.deep-ml.com/problems/94) | hard | 2026-10-19 | [solution](problems/0094-implement-multi-head-attention) |
 | [Implement Multi-Head Self-Attention](https://www.deep-ml.com/problems/904) | hard | 2026-10-20 | [solution](problems/0904-implement-multi-head-self-attention) |
