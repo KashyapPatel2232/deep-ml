@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**223** solved · 176 problems · 13 labs · 34 math
+**224** solved · 177 problems · 13 labs · 34 math
 
 ![Coverage](./coverage.svg)
 
@@ -187,6 +187,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Positional Encoding Calculator](https://www.deep-ml.com/problems/85) | hard | 2026-11-09 | [solution](problems/0085-positional-encoding-calculator) |
 | [Pre-allocated Sliding KV Cache Update](https://www.deep-ml.com/problems/1011) | hard | 2026-11-16 | [solution](problems/1011-pre-allocated-sliding-kv-cache-update) |
 | [Pre-Norm GPT Transformer Block Forward Pass](https://www.deep-ml.com/problems/1056) | hard | 2026-11-13 | [solution](problems/1056-pre-norm-gpt-transformer-block-forward-pass) |
+| [Simplified GPTQ: Sequential Quantization with Error Compensation](https://www.deep-ml.com/problems/1257) | hard | 2026-11-22 | [solution](problems/1257-simplified-gptq-sequential-quantization-with-error-compensation) |
 | [Train a Simple GAN on 1D Gaussian Data](https://www.deep-ml.com/problems/174) | hard | 2026-10-28 | [solution](problems/0174-train-a-simple-gan-on-1d-gaussian-data) |
 
 ## Labs
