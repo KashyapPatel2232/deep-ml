@@ -1,40 +1,30 @@
-import numpy as np
+import torch
 
 def mxfp4_quantize(x: list, block_size: int = 4) -> dict:
-    """
-    Perform MXFP4 quantization with per-block microscaling.
-
-    Args:
-        x: list of float values to quantize
-        block_size: number of elements per scaling block
-
-    Returns:
-        dict with keys:
-            'quantized': list of dequantized values (rounded to 4 decimals)
-            'scales': list of per-block scale factors (rounded to 4 decimals)
-    """
     length = len(x)
+    padded = list(x)
+    if length % block_size != 0:
+        padded.extend([0.0] * (block_size - length % block_size))
+
+    blocks = len(padded) // block_size
+    fp4_pos = torch.tensor([0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0], dtype=torch.float64)
+
     output = []
     scales = []
-    if length % block_size == 0:
-        blocks = length // block_size
-    else:
-        x.extend([0.0 for i in range(block_size - length % block_size)])
-        blocks = length // block_size + 1
-    
+
     for i in range(blocks):
-        temp = np.array(x[i * block_size : (i + 1) * block_size], dtype=float)
-        scale = np.max(np.abs(temp)) / 6
+        temp = torch.tensor(padded[i * block_size : (i + 1) * block_size], dtype=torch.float64)
+        scale = torch.max(torch.abs(temp)) / 6.0
+
         if scale != 0:
-            scale = 2 ** np.ceil((np.log2(scale)))
+            scale = 2.0 ** torch.ceil(torch.log2(scale))
         else:
-            scale = 1.0
-        
+            scale = torch.tensor(1.0, dtype=torch.float64)
+
         scales.append(round(float(scale), 4))
-        fp4_pos = np.array([0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 6.0])
         scaled = temp / scale
-        idx = np.argmin(np.abs(np.abs(scaled)[:, None] - fp4_pos), axis=1)
-        dequant = (np.sign(scaled) * fp4_pos[idx] * scale )
-        output.extend(np.round(dequant, 4).tolist())
+        idx = torch.argmin(torch.abs(torch.abs(scaled)[:, None] - fp4_pos), dim=1)
+        dequant = torch.sign(scaled) * fp4_pos[idx] * scale
+        output.extend(torch.round(dequant, decimals=4).tolist())
 
     return {'quantized': output[:length], 'scales': scales}
