@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:00:02.175Z",
+  "generated_at": "2026-11-22T18:03:25.665Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2854,9 +2854,9 @@
       "url": "https://www.deep-ml.com/problems/429",
       "path": "problems/0429-quantization-quality-check-via-perplexity-delta",
       "first_solved_at": "2026-11-22T18:00:01.168Z",
-      "last_pushed_at": "2026-11-22T18:00:01.168Z",
+      "last_pushed_at": "2026-11-22T18:03:25.014Z",
       "language": "python",
-      "lines": 39
+      "lines": 45
     }
   }
 }
