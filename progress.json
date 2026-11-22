@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:39:30.767Z",
+  "generated_at": "2026-11-22T10:41:33.144Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2802,7 +2802,7 @@
       "url": "https://www.deep-ml.com/problems/234",
       "path": "problems/0234-block-wise-fp8-quantization",
       "first_solved_at": "2026-11-22T10:39:29.863Z",
-      "last_pushed_at": "2026-11-22T10:39:29.863Z",
+      "last_pushed_at": "2026-11-22T10:41:32.540Z",
       "language": "python",
       "lines": 59
     }

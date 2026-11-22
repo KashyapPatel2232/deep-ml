@@ -1,9 +1,9 @@
-import numpy as np
+import torch
 
 def fp8_block_quantize(
-    tensor: np.ndarray,
+    tensor: torch.Tensor,
     block_size: int = 128
-) -> tuple[np.ndarray, np.ndarray]:
+) -> tuple[torch.Tensor, torch.Tensor]:
     """
     Quantize a tensor to FP8-E4M3 format using block-wise scaling.
     
@@ -23,18 +23,18 @@ def fp8_block_quantize(
     scales = []
     for i in range(blocks):
         temp = tensor[i*block_size: (i+1)* block_size]
-        scale = (np.max(np.abs(temp)) + 1e-12) / FP_MAX
-        quant = np.clip(np.round(temp / scale), -FP_MAX, FP_MAX)
+        scale = (torch.max(torch.abs(temp)) + 1e-12) / FP_MAX
+        quant = torch.clamp(torch.round(temp / scale), -FP_MAX, FP_MAX)
         output.extend(quant)
         scales.append(scale)
-    return np.asarray(output), np.asarray(scales)
+    return torch.tensor(output), torch.tensor(scales)
 
 
 def fp8_block_dequantize(
-    quantized: np.ndarray,
-    scales: np.ndarray,
+    quantized: torch.Tensor,
+    scales: torch.Tensor,
     block_size: int = 128
-) -> np.ndarray:
+) -> torch.Tensor:
     """
     Dequantize FP8-E4M3 values back to full precision.
     
@@ -56,4 +56,4 @@ def fp8_block_dequantize(
         scale = scales[i]
         dequant =  temp * scale
         output.extend(dequant)
-    return np.asarray(output)
+    return torch.tensor(output)
