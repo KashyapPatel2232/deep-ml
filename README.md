@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**227** solved · 179 problems · 13 labs · 35 math
+**228** solved · 179 problems · 14 labs · 35 math
 
 ![Coverage](./coverage.svg)
 
@@ -201,6 +201,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Build a Tokenizer for Language Modeling](https://www.deep-ml.com/labs/19) | medium | 2026-11-03 | [solution](labs/0019-build-a-tokenizer-for-language-modeling) |
 | [Design Your Own Attention Mechanism](https://www.deep-ml.com/labs/10) | medium | 2026-10-22 | [solution](labs/0010-design-your-own-attention-mechanism) |
 | [Design Your Own Optimizer (NumPy)](https://www.deep-ml.com/labs/8) | medium | 2026-10-04 | [solution](labs/0008-design-your-own-optimizer-numpy) |
+| [Design Your Own PTQ](https://www.deep-ml.com/labs/36) | medium | 2026-11-23 | [solution](labs/0036-design-your-own-ptq) |
 | [MLP with Dropout and BatchNorm](https://www.deep-ml.com/labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b) | medium | 2026-10-10 | [solution](labs/3480fd6b-ee7a-4afd-ba4b-5c934aeab10b-mlp-with-dropout-and-batchnorm) |
 | [MNIST: Design-Your-Own tiny Pytorch Model](https://www.deep-ml.com/labs/2) | medium | 2026-10-13 | [solution](labs/0002-mnist-design-your-own-tiny-pytorch-model) |
 | [MNIST: Fix Very Deep Network Training](https://www.deep-ml.com/labs/7) | medium | 2026-10-11 | [solution](labs/0007-mnist-fix-very-deep-network-training) |
