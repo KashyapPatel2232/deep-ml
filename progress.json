@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:26:48.329Z",
+  "generated_at": "2026-11-23T07:45:22.023Z",
   "items": {
     "math:1": {
       "kind": "math",
@@ -2868,6 +2868,19 @@
       "path": "math/0133-attention-as-a-soft-dictionary-lookup",
       "first_solved_at": "2026-11-23T03:26:47.514Z",
       "last_pushed_at": "2026-11-23T03:26:47.514Z"
+    },
+    "problem:443": {
+      "kind": "problem",
+      "id": "443",
+      "title": "Embedding Quantization Quality via Cosine Similarity",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "url": "https://www.deep-ml.com/problems/443",
+      "path": "problems/0443-embedding-quantization-quality-via-cosine-similarity",
+      "first_solved_at": "2026-11-23T07:45:21.321Z",
+      "last_pushed_at": "2026-11-23T07:45:21.321Z",
+      "language": "python",
+      "lines": 37
     }
   }
 }
